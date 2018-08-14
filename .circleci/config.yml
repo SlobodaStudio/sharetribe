@@ -45,7 +45,7 @@ jobs:
           working_directory: client
       - run:
           name: rspec
-          command: bundle exec rspec --format progress --format RspecJunitFormatter --out $CIRCLE_TEST_REPORTS/rspec.xml:
+          command: bundle exec rspec --format progress --format RspecJunitFormatter --out $CIRCLE_TEST_REPORTS/rspec.xml
 workflows:
   version: 2
   test:
