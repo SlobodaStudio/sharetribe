@@ -17,8 +17,14 @@ jobs:
           name: install deps
           command: script/ci-install-deps.sh
       - run:
-          name: rebuild node-sass
-          command: source .nvm/nvm.sh && cd client && npm rebuild node-sass
+          name: prepare
+          command: script/ci-prepare.sh
+      - run:
+          name: bundle install
+          command: bundle check --path=vendor/bundle || bundle install --without=development
+      - run:
+          name: rubocop
+          command: bundle exec rubocop -R
 workflows:
   version: 2
   test:
