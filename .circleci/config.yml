@@ -16,7 +16,7 @@ jobs:
     steps:
       - checkout
       - run:
-          name: install deps
+          name: install system deps
           command: script/ci-install-deps.sh
       - restore_cache:
           key: deps-cache
@@ -41,7 +41,7 @@ jobs:
           command: bundle exec rubocop -R
       - run:
           name: npm lint
-          command: source ~/.nvm/nvm.sh && npm run link
+          command: source ~/.nvm/nvm.sh && npm run lint
           working_directory: client
       - run:
           name: rspec
