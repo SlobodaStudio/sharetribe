@@ -7,6 +7,7 @@ jobs:
           # TODO needed?
           MOCHA_FILE: /tmp/circleci-test-results/mocha.xml
           DATABASE_URL: mysql2://root:very-secret@mysql/sharetribe_test
+          NODE_VERSION=7.8.0
       - image: mysql:5.7
         environment:
           MYSQL_ROOT_PASSWORD=very-secret
