@@ -15,6 +15,9 @@ jobs:
       - run:
           name: install deps
           command: script/ci-install-deps.sh
+      - run:
+          name: rebuild node-sass
+          command: cd client && npm rebuild node-sass
 workflows:
   version: 2
   test:
