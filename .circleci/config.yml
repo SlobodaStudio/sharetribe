@@ -8,6 +8,7 @@ jobs:
           MOCHA_FILE: /tmp/circleci-test-results/mocha.xml
           DATABASE_URL: mysql2://root:very-secret@mysql/sharetribe_test
           NODE_VERSION: 7.8.0
+          NODE_ENV: test
       - image: mysql:5.7
         environment:
           MYSQL_ROOT_PASSWORD=very-secret
@@ -17,11 +18,14 @@ jobs:
           name: install deps
           command: script/ci-install-deps.sh
       - run:
-          name: prepare
-          command: script/ci-prepare.sh
-      - run:
           name: bundle install
           command: bundle check --path=vendor/bundle || bundle install --without=development
+      - run:
+          name: npm install
+          command: npm install
+      - run:
+          name: prepare
+          command: script/ci-prepare.sh
       - run:
           name: rubocop
           command: bundle exec rubocop -R
