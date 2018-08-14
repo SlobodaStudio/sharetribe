@@ -17,12 +17,21 @@ jobs:
       - run:
           name: install deps
           command: script/ci-install-deps.sh
+      - restore_cache:
+          key: deps-cache
       - run:
           name: bundle install
           command: bundle check --path=vendor/bundle || bundle install --without=development
       - run:
           name: npm install
           command: npm install
+      - save_cache:
+          key: deps-cache
+          paths:
+            - vendor/bundle
+            - ~/.bundle
+            - client/node_modules
+            - ./node_modules
       - run:
           name: prepare
           command: script/ci-prepare.sh
