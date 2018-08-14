@@ -15,3 +15,8 @@ jobs:
       - run:
           name: install sphinxsearch
           command: add-apt-repository -y ppa:builds/sphinxsearch-rel22
+workflows:
+  version: 2
+  test:
+    jobs:
+      - test
