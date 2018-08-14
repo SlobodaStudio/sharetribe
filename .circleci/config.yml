@@ -2,7 +2,7 @@ version: 2
 jobs:
   test:
     docker:
-      - image: circleci/ruby:2.3.4-node
+      - image: circleci/ruby:2.3.4-jessie-node
         environment:
           # TODO needed?
           MOCHA_FILE: /tmp/circleci-test-results/mocha.xml
@@ -13,8 +13,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: install sphinxsearch
-          command: add-apt-repository -y ppa:builds/sphinxsearch-rel22
+          name: install deps
+          command: script/ci-install-deps.sh
 workflows:
   version: 2
   test:
