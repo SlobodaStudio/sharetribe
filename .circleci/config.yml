@@ -20,7 +20,7 @@ jobs:
           name: install system deps
           command: script/ci-install-deps.sh
       - restore_cache:
-          key: {{ .Environment.CI_CACHE_VERSION }}-deps-cache
+          key: deps-cache-{{ .Environment.CI_CACHE_VERSION }}
       - run:
           name: bundle install
           command: source ~/.nvm/nvm.sh && bundle check --path=vendor/bundle || bundle install --without=development
@@ -28,7 +28,7 @@ jobs:
           name: npm install
           command: source ~/.nvm/nvm.sh && npm install
       - save_cache:
-          key: {{ .Environment.CI_CACHE_VERSION }}-deps-cache
+          key: deps-cache-{{ .Environment.CI_CACHE_VERSION }}
           paths:
             - vendor/bundle
             - ~/.bundle
