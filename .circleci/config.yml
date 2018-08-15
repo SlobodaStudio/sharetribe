@@ -22,10 +22,10 @@ jobs:
           key: deps-cache
       - run:
           name: bundle install
-          command: source ~/.npm/npm.sh && bundle check --path=vendor/bundle || bundle install --without=development
+          command: source ~/.nvm/nvm.sh && bundle check --path=vendor/bundle || bundle install --without=development
       - run:
           name: npm install
-          command: source ~/.npm/npm.sh && npm install
+          command: source ~/.nvm/nvm.sh && npm install
       - save_cache:
           key: deps-cache
           paths:
