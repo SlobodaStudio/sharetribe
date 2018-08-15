@@ -10,6 +10,7 @@ jobs:
           DATABASE_URL: mysql2://root:very-secret@mysql/sharetribe_test
           NODE_VERSION: 7.8.0
           NODE_ENV: test
+          CI_CACHE_VERSION: v1
       - image: mysql:5.7
         environment:
           MYSQL_ROOT_PASSWORD=very-secret
@@ -19,7 +20,7 @@ jobs:
           name: install system deps
           command: script/ci-install-deps.sh
       - restore_cache:
-          key: deps-cache
+          key: {{ .Environment.CI_CACHE_VERSION }}-deps-cache
       - run:
           name: bundle install
           command: source ~/.nvm/nvm.sh && bundle check --path=vendor/bundle || bundle install --without=development
@@ -27,7 +28,7 @@ jobs:
           name: npm install
           command: source ~/.nvm/nvm.sh && npm install
       - save_cache:
-          key: deps-cache
+          key: {{ .Environment.CI_CACHE_VERSION }}-deps-cache
           paths:
             - vendor/bundle
             - ~/.bundle
