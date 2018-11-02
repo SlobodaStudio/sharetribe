@@ -142,6 +142,11 @@ class Category < ApplicationRecord
     return child_array.flatten
   end
 
+  def self.persons_by_listings_in_category(category)
+    return Listing::find_by_category_and_subcategory(category).map { |listing| listing.author }.uniq if category
+    return Category.all.map { |category| category.listings.map { |listing| listing.author } }.uniq
+  end
+
   def icon_name
     return icon if ApplicationHelper.icon_specified?(icon)
     return parent.icon_name if parent

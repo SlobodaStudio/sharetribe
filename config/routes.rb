@@ -338,6 +338,9 @@ Rails.application.routes.draw do
       end
     end
     resources :user_feedbacks, :controller => :feedbacks
+
+    resources :ratings
+
     resources :homepage do
       collection do
         get :sign_in

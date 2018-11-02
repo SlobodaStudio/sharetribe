@@ -1,0 +1,23 @@
+#div{:class => ['home-list-item']}
+  = medium_avatar_thumb(person[:person], {class: 'home-list-image-container-desktop'})
+
+  .home-list-details-right
+    .home-list-price
+      - if true
+        .home-list-item-price-value
+          = person[:feedback_positive_percentage].to_s  + '%'
+          %small
+            = t("people.show.positive")
+
+  %div{:class => "home-list-details-with-image"}
+    %h2.home-list-title
+      = link_to_unless person[:person].deleted?, PersonViewUtils.person_display_name(person[:person], @current_community), person[:person] do
+        = PersonViewUtils.person_display_name(person[:person], @current_community)
+
+  .home-list-author.home-list-author-with-listing-image
+    .positive
+      %i{class: 'icon-thumbs-up positive', style: 'color:green'}
+      = person[:ptc]
+    .negative
+      %i{class: 'icon-thumbs-down negative',style: 'color:red'}
+      = person[:ntc]
