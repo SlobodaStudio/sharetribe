@@ -2000,8 +2000,8 @@ ru:
         other: "Доступ к %{service_name} ограничен. Вы должны иметь email адрес подтверждающий что вы имеете право на участие."
       family_name: "Фамилия:"
       given_name: "Имя:"
-      i_accept_the_terms_and_privacy: ~
-      admin_emails_consent: ~
+      i_accept_the_terms_and_privacy: "Я согласен с %{terms} и мною прочитана %{privacy}"
+      admin_emails_consent: "Я согласен получать письма от %{service_name} комманды и понимаю что могу изменить свое решение в любое время"
       invalid_invitation_code: "Код приглашения недействителен."
       invitation_code: "Код приглашения:"
       not_required: ", не обязательно"
@@ -2010,7 +2010,7 @@ ru:
       show_my_name_to_others: "Показывать моё настоящее имя другим пользователям %{service_name}"
       sign_up: "Зарегистрироваться в %{service_name}"
       terms: "условиями использования"
-      privacy: ~
+      privacy: "политика конфиденциальности"
       username_is_in_use: "Это имя пользователя занято."
       username_is_invalid: "Можно использовать только латинские буквы, цифры и знак подчёркивания."
       visible_only_to_you: "видимо только вам"
