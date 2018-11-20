@@ -47,6 +47,9 @@ class Conversation < ApplicationRecord
     subquery = Transaction.non_free.by_community(community.id).select('conversation_id').to_sql
     by_community(community).where("id NOT IN (#{subquery})").non_payment
   end
+  scope :all_for_community, -> (community, sort_field, sort_direction) do
+    by_community(community).order("#{sort_field} #{sort_direction}")
+  end
   scope :free_for_community, -> (community, sort_field, sort_direction) do
     non_payment_or_free(community).order("#{sort_field} #{sort_direction}")
   end

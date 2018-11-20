@@ -3,7 +3,7 @@ class Admin::CommunityConversationsController < Admin::AdminBaseController
     @selected_left_navi_link = "conversations"
     pagination_opts = PaginationViewUtils.parse_pagination_opts(params)
 
-    conversations = Conversation.free_for_community(
+    conversations = Conversation.all_for_community(
       @current_community,
       simple_sort_column(params[:sort]),
       sort_direction)
