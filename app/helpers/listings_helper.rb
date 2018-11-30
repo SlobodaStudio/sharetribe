@@ -54,8 +54,8 @@ module ListingsHelper
   def listing_form_menu_titles()
     titles = {
       "category" => t("listings.new.select_category"),
-      "subcategory" => t("listings.new.select_subcategory"),
-      "listing_shape" => t("listings.new.select_transaction_type")
+      "subcategory" => t("listings.new.select_subcategory")
+      #"listing_shape" => t("listings.new.select_transaction_type")
     }
   end
 
