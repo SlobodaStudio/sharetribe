@@ -1,0 +1,2531 @@
+ua:
+  number:
+    currency:
+      format:
+        separator: ","
+        delimiter: ","
+        format: "%n%u"
+  admin:
+    categories:
+      edit:
+        edit_listing_category: "Редагувати категорію \"%{category}\""
+      index:
+        listing_categories: "Категорії публікацій"
+        create_a_new_category: "+ Cтворити нову категорію"
+        remove_category_confirmation: "Ви впевнені що хочете видалити категорію \"%{category_name}\"?"
+        saving_order: "Збереження порядку категорій"
+        save_order_successful: "Порядок категорій збережений успішно"
+        save_order_error: "При збереженні порядку категорій сталася помилка. Будь ласка обновіть сторінку і спробуйте знову."
+      new:
+        new_listing_category: "Нова категорія публікацій"
+      form:
+        category_name:
+          category_title: "Назва категорії"
+        category_parent:
+          category_parent: "Батьківська категорія"
+          no_parent: "Немає вищої"
+        category_transaction_types:
+          transaction_types: "Тип транзакції"
+          transaction_types_description: "Типи транзакцій визначають які типи транзакцій допустимі для публікацій даної категорії. Для прикладу, це продаж, оренда або в дар, де є безкоштовна можливість."
+          select_all: "Обрати всі"
+          clear_all: "Очистити всі"
+        buttons:
+          save: Зберегти
+          cancel: Скасувати
+      remove:
+        remove_category: "Видалити категорію"
+        remove_category_name: "Видалити категорію \"%{category_name}\""
+        warning_remove_effects: "Попередження! Видалення категорії \"%{category_name}\" вплинуть наступному:"
+        warning_listing_will_be_moved:
+          one: "У категорії є %{count} публікація. Вона буде перенесена у обрану категорію."
+          few: "У категорії є %{count} публікацій. Вони будуть перенесені у обрану категорію."
+          many: "У категорії є %{count} публікацій. Вони будуть перенесені у обрану категорію."
+          other: "У категорії є %{count} публікацій. Вони будуть перенесені у обрану категорію."
+        warning_custom_field_will_be_moved:
+          one: "У цій категорії %{count} користувацьке поле. Буде перенесено у обрану категорію."
+          few: "У цій категорії %{count} користувацьких полів. Будуть перенесені у обрану категорію."
+          many: "У цій категорії %{count} користувацьких полів. Будуть перенесені у обрану категорію."
+          other: "У цій категорії %{count} користувацьких полів. Будуть перенесені у обрану категорію."
+        warning_subcategory_will_be_removed:
+          one: "У цій категорії знаходиться %{count} субкатегорія. Вона буде видалена."
+          few: "У цій категорії знаходяться %{count} субкатегорій. Вони будуть видалені."
+          many: "У цій категорії знаходяться %{count} субкатегорій. Вони будуть видалені."
+          other: "У цій категорії знаходяться %{count} субкатегорій. Вони будуть видалені."
+        warning_with_subcategories_listing_will_be_moved:
+          one: "У цій категорії та підкатегоріях знаходиться %{count} публікація. Вона буде перенесена в обрану категорію. "
+          few: "У цій категорії і субкатегорій знаходяться %{count} пропозицій. Вони будуть перенесені в обрану категорію."
+          many: "У цій категорії і субкатегорій знаходяться %{count} публікацій. Вони будуть перенесені в обрану категорію."
+          other: "У цій категорії і субкатегорій знаходяться %{count} публікацій. Вони будуть перенесені в обрану категорію."
+        warning_with_subcategories_custom_field_will_be_moved:
+          one: "У цій категорії і субкатегорій знаходиться %{count} персональное поле. Воно буде перенесено в обрану категорію. "
+          few: "У цій категорії і субкатегорій знаходяться %{count} персональних полів. Вони будуть перенесені в обрану категорію."
+          many: "У цій категорії і субкатегорій знаходяться %{count} персональних полів. Вони будуть перенесені в обрану категорію."
+          other: "У цій категорії і субкатегорій знаходяться %{count} персональних полів. Вони будуть перенесені в обрану категорію."
+        select_new_category: "Оберіть нову категорію куди будуть перенесені обрані публікації:"
+        buttons:
+          remove: Видалити
+          cancel: Скасувати
+    communities:
+      edit_details:
+        community_details: "Основні деталі"
+        community_look_and_feel: Дизайн
+        edit_community: "Основні деталі"
+        enabled_languages: "Доступні мови"
+        enabled_languages_description: "Набір доступних мов для користувачів. Перший у списку використовується за замовчуванням."
+        default_language: "Мова за замовчуванням"
+        language_selection_disabled: "Вибір мови недоступний для площадки, оскільки ви використовуєте неофіційну мову %{languages}. Якщо ви хочете змінити мовні налаштування, зв'яжіться зі службою підтримки Sharetribe."
+        community_name: "Назва проекту"
+        edit_community_name_description: "Назва вашого проекту. Вона буде показана в emails і інших місцях."
+        community_slogan: Девіз
+        edit_community_slogan_description: "Це буде показано на головній сторінці проекту для користувачів які не увійшли в систему. %{see_how_it_looks_like}"
+        community_description: "Опис:"
+        edit_community_description_description: "Це буде показано на головній сторінці проекту для користувачів які не увійшли в систему. %{see_how_it_looks_like}"
+        community_search_placeholder: "Текст допомоги пошуку"
+        edit_community_search_placeholder_description: "Це відображається на головній сторінці проекту, як місце для заповнення текстом в рядку пошуку. %{see_how_it_looks_like}"
+        private_community_homepage_content: "Контент головної сторінки приватного маркетплейсу"
+        edit_private_community_homepage_content_description: "Це буде показано на головній сторінці приватного проекту для користувачів які не увійшли в систему. Тут ви можете описати ваш проект і процес дій щоб приєднатися до нього. Ви також можете додати зображення, відео і HTML контент тут %{see_how_it_looks_like}"
+        update_information: "Зберегти налаштування"
+        invite_people: "Запросити нових користувачів"
+        edit_signup_info: Інформація
+        edit_signup_info_description: "Цей текст може бути показаний користувачам на сторінці реєстрації. Тут ви можете вказати необхідну інструкцію, інформацію як наприклад, де отримати запрошення і т.д. За замовчуванням тут немає інструкцій."
+        edit_info: "Редагувати інформацію"
+        see_how_it_looks_like: "Подивитись як це виглядає"
+        verification_to_post_listings_info_content: "Інформаційний текст для непідтверджених учасників"
+        verification_to_post_listings_info_content_description: "Зараз вашим користувачам потрібно бути підтвердженим вручну вами, щоб вони змогли розміщувати публікації. Тут ви можете встановити базовий текст який показується для непідтверджених користувачів коли вони пробують створити нове розміщення публікації."
+        verification_to_post_listings_info_content_default: "%{service_name} потребує, щоб користувачі були підтверджені вручну адміністрацією до того, щоб вони могли створювати оголошення. Ви ще не були підтверджені. Будь ласка, %{contact_admin_link} для підтердження."
+        contact_admin_link_text: "зв'яжіться з адміністратором"
+        save: "Зберегти налаштування"
+        transaction_agreement: "Транзакційна угода"
+        transaction_agreement_checkbox: "Потрібно щоб учасники прийняли угоду перед транзакцією"
+        transaction_agreement_checkbox_header: "Супровідний текст"
+        transaction_agreement_checkbox_label_description: "Даний текст буде показаний поряд з прапорцем в формі підтердження угоди. Користувачеві необхідно відмітити підтвердження щоб перейти до транзакції. Приклад супровідного тексту: \"Натискаючи тут ви приймаєте дану угоду.\""
+        transaction_agreement_text_header: "Текст угоди"
+        transaction_agreement_description: "Це зміст актуальної угоди яку користувач повинен прийняти. Текст угоди відображається коли користувач натискає посилання \"%{read_more}\" наступну за супровідним текстом."
+      edit_look_and_feel:
+        edit_community_look_and_feel: "Редагувати оформлення «%{community_name}»"
+        community_logo: Логотип
+        community_logo_icon: "Лого для соц мереж і мобільних пристроїв"
+        community_cover_photo: Обкладинка
+        small_community_cover_photo: "Зменшене фото для обкладинки"
+        favicon: "Значок для обраного і відображення у вкладці"
+        favicon_info_text: "Favicon замінить лого платформи встановленої за замовчуванням. Розміри повинні бути 32x32 пікселя і завантажуване зображення буде адаптировано під ці розміри."
+        community_custom_color1: "Основний колір"
+        community_slogan_color: "Колір слоганау маркетплейса"
+        community_slogan_color_instructions_text: "Ви можете змінити колір слогана на домашній сторінці, використовуючи шістнадцятиричне значення кольору. Слоган показується користувачам, які не увійшли в свій обліковий запис. %{colorpicker} дозволить вам вибрати колір і підібрати його значення. Потім ви сюди зможете скопіювати значення кольору. %{see_how_it_looks_like}."
+        community_description_color: "Колір опису маркетплейса"
+        community_description_color_instructions_text: "Ви можете змінити колір слогана на домашній сторінці, використовуючи шістнадцятиричне значення кольору. Слоган показується користувачам, які не увійшли в свій обліковий запис. %{colorpicker} дозволить вам вибрати колір і підібрати його значення. Потім ви сюди зможете скопіювати значення кольору. %{see_how_it_looks_like}."
+        new_listing_button_custom_color: "Змінити колір кнопки виведення каталога"
+        logo_instructions_text_with_dimensions: "Лого для desktop повинен бути %{width} x %{height} px. Він буде показаний користувачам з великими екранами."
+        logo_instructions_text_with_dimensions_no_placing: "Розмір логотипа повинен бути %{width} %{height}px."
+        logo_icon_instructions_text_with_dimensions: "Цей квадратний лого буде показаний коли люди діляться вашим проектом в Фейсбук, коли вони переглядають ваший сайт на мобільних пристроях або коли вони запам'ятовують ваш сайт на головній сторінці їх мобильного пристрою. Розміри повинні бути (принаймні) %{width}x%{height} px."
+        logo_icon_instructions_text_with_dimensions_no_placing: "Даний логотип буде видно тим, хто ділиться вашою сторінкою на Facebook або коли додають у обране на головному екрані свого мобільного пристрою. Розміри повинні бути (мінімум) %{width}x%{height}px."
+        cover_photo_visibility: "Обкладинка з фото буде показана на головній сторінці для не зареєстрованих користувачів."
+        cover_photo_instructions_text_with_dimensions: "Фото будуть змінені до розміру %{width}x%{height} пікселів, а більш великі зображення будуть обрізані до середнього розміру %{see_how_it_looks_like}."
+        small_cover_photo_visibility: "Зменшена обкладинка з фото буде показана на всіх сторінках виключаючи головну сторінку для не зареєстрованих користувачів."
+        small_cover_photo_instructions_text_with_dimensions: "Фото будуть змінені до розміру %{width}x%{height} пікселів, а більш великі зображення будуть обрізані до середнього розміру."
+        main_content_width: "Вибираючи обкладинку з фото прийміть до уваги що основний контент на сторінці %{main_width} пікселів ширше. Не забудь також перевірити як ваша обкладинка з фото виглядає на більш маленьких екранах."
+        custom_color1_instructions_text: "Ви можете змінити основний колір інтерфейсу, ввівши його значення. Сайт <a href=\"http://www.colorpicker.com/?colorcode=D96E21\" target=\"_blank\" rel=\"noreferrer\">ColorPicker.com</a> допоможе обрати і скопіювати відповідний колір."
+        new_listing_button_instructions_text: ~
+        default_browse_view: "Стандартний вигляд"
+        default_browse_view_instructions_text: "Стандартний вигляд використовується на головній сторінці, щоб встановити відображення публікацій за замовчуванням"
+        grid: Сітка
+        list: Список
+        map: Карта
+        name_display_type: "Назва типу відображення"
+        name_display_type_instructions_text: "Оберіть як ім'я/Назва кожного учасника відображається на сайті."
+        full_name: "Повне ім'я (Ім'я Прізвище)"
+        first_name_with_initial: "Ім'я з ініціалами (Ім'я В)"
+        first_name_only: "Тільки ім'я (Ім'я)"
+        invalid_color_code: "Код кольору повинен містити 6 цифр або букв від A до F, наприклад D96E21"
+        custom_head_script: "Власний скрипт"
+        custom_head_script_instructions_text: "Даний скрипт знаходиться всередині <head> tag кожної сторінки і може бути використаний щоб вставити власний CSS, JavaScript або HTML. Майте на увазі що подальші зміни системи Sharetribe можуть зробити його несумісним."
+      edit_text_instructions:
+        edit_text_instructions: Інструкція
+      edit_welcome_email:
+        welcome_email_content: "Зміст привітального листа"
+        welcome_email_content_description: "Повідомлення розташоване нижче буде відправлено кожному новому користувачеві. Ви можете адаптувати повідомлення найбільш відповідним для вашого проекту способом. Натискаючи \"%{send_test_message_link}\" ви можете попередньо подивитись повідомлення щоб перевірити, як воно буде відображено клієнту."
+        edit_message: "Редагувати повідомлення"
+        send_test_message: "Надіслати тестове повідомлення"
+      outgoing_email:
+        title: "Вихідна адреса електронної пошти"
+        info: "Це ім'я і адрес будуть використовуватися для електронних листів, відправлених з проекту користувачам."
+        read_more: "Детальніше про вихідний адрес електронної пошти"
+        sender_address: "Адреса відправника: %{sender_address}"
+        sender_address_default: "Адреса відправника: не відправлено (використовувати адресу за замовчуванням %{sender_address})"
+        need_to_change: "Якщо вам необхідно змінити електронний адрес, будь ласка %{contact_support_link}"
+        contact_support_link_text: ~
+        set_sender_address: "Встановіть адресу відправника"
+        sender_name_label: Ім'я
+        sender_name_placeholder: "Ім'я відправника"
+        sender_email_label: "Адреса електронної пошти"
+        sender_email_placeholder: sender-email@example.com
+        amazon_ses_notification: "Ви отримаєте лист з метою підтердження вашого електронного адреса від %{email_sender}. Тема листа - '%{email_subject}'. Дотримуйтесь інструкцій для підтердження вашого електронного адреса."
+        this_is_how_it_will_look: "Зразок:"
+        send_verification_button: "Надіслати лист з підтвердженням"
+        change_sender_email: ~
+        successfully_saved: "Адреса відправника успішно збережений. Лист з підтвердженням буде незабаром відправлено."
+        successfully_saved_name: ~
+        set_sender_name: ~
+        change_sender_name: ~
+        change_sender_prompt: ~
+        status: "Стан: %{status}"
+        status_verified: "Підтверджено - використовується"
+        status_error: ~
+        status_requested: "Не підтверджено - лист з підтвердженням відправлено на %{email} %{time_ago}. %{resend_link}"
+        status_expired: "Термін підтердження %{email} закінчився. %{resend_link}"
+        status_resent: "Лист з підтвердженням повторно відправлено на %{email}. %{resend_link}"
+        resend_link: "Надіслати повторно"
+        invalid_email_error: "Некоректний формат %{email}"
+        invalid_email_domain: "В адресі електронної пошти %{email} використовується непідтримуваний провайдер послуг електронної пошти: %{domain}. %{invalid_email_domain_read_more_link}"
+        invalid_email_domain_read_more_link: "Для отримання додаткової інформації прочитайте статтю в базі знань."
+        unknown_error: "Щось пішло не так"
+        white_label_offer: "Встановити свій електронний адрес в якості основного при відправці повідомлень і видалити всі брендовані елементи Sharetribe з вихідних листів - за посиланням %{upgrade_pro_plan_link}."
+        upgrade_plan_link: ~
+        verification_sent_from: "Лист з підтвердженням було відправлено від %{verification_sender_name}."
+        follow_the_instructions: "Дотримуйтесь інструкцій в листі для підтердження адреси."
+      getting_started:
+        getting_started: "Гід для початку роботи"
+      available_languages:
+        en: Англійська
+        en-AU: "Англійська (Австралія)"
+        en-GB: "Англійська (Великобританія)"
+        fr: Французький
+        fr-CA: "Французький (Канадський)"
+        es: "Іспанський (Чілі)"
+        es-ES: Іспанський
+        pt-PT: Португальський
+        pt-BR: ~
+        nb: "Норвезький букмол"
+        sv: Шведський
+        da-DK: Датський
+        fi: Фінський
+        ru: Російська
+        de: Німецький  
+        el: Грецький
+        nl: Датський
+        tr-TR: Турецький
+        zh: Китайський
+        ja: Японський
+        it: Італійський
+      settings:
+        settings: Налаштування
+        general: Основні
+        access: Доступ
+        join_with_invite_only: "Учасники можуть приєднатися до проекту тільки за запрошенням других учасників."
+        users_can_invite_new_users: "Всі учасники можуть запрошувати нових учасників в цей проект."
+        private: "Цей проект приватний (тільки зареєстровані учасники можуть бачити вміст)"
+        require_verification_to_post_listings: "тільки учасники підтверджені адміністратором можуть розміщувати нові публікації"
+        search_preferences: "Налаштування пошуку"
+        default_search_type: "Тип пошуку: %{select_search_type}"
+        keyword_search: "Пошук по ключовому слову"
+        keyword_and_location_search: "Ключове слово і пошук за місцем розташування"
+        location_search: "Пошук за місцем розташування"
+        select_distance_unit: "Показати відстань в %{distance_units_selector}"
+        km: км
+        miles: милі
+        show_only_nearby: "Показувати тільки каталоги найбільш близькі вам за допомогою пошуку або за місцем розташування"
+        listing_preferences: "Налаштування пропозицій"
+        transaction_preferences: "Налаштування транзакції"
+        show_listing_publishing_date: "Показати дату публікації на сторінці публікації"
+        show_category_in_listing_list: "Показувати тип публікації"
+        listing_comments_in_use: "Дозволити участникам коментувати публікації (видно для всіх учасників)"
+        email_preferences: "Налаштування e-mail"
+        automatic_newsletters: "Автоматично отправлять щодня/щотижня новини всім участникам (поки вони не відмовляться від підписки)"
+        email_admins_about_new_members: "Повідомляти адміністратора про кожного нового участника по email"
+        google_analytics_key: "Google Analytics tracking ID"
+        twitter_handle: "Ваше ім'я в Twitter (використовується разом з кнопкой tweet на сторінці розміщення)"
+        update_settings: "Зберегти налаштування"
+        automatically_confirmed_no_escrow: "Транзакція буде автоматично відзначена, як завішена через %{days_dropdown} днів після здійснення платежу"
+        automatically_confirmed_no_escrow_stripe_info: ~
+        automatic_newsletter_frequency: "Отправлять автоматично новини: %{frequency_dropdown}"
+        newsletter_daily: Щодня
+        newsletter_weekly: Щотижня
+        delete_marketplace_title: "Видалити маркетплейс"
+        type_marketplace_domain: "Введіть ваш домен (%{domain}) в поле нижче:"
+        type_marketplace_domain_placeholder: "Введіть доменне ім'я своего проекту"
+        once_you_delete: "Обережно, після видалення проекту ви не зможете отримати до нього доступ."
+        are_you_sure: Впевнені?
+        i_understand_button: "Я розумію, що після того, як натисну на цю кнопку мій проект буде видалений"
+        last_community_updates: "Зверніть увагу на те, що навіть після видалення ви і користувачі проекту можуть отримати останні електронні листи з оновленнями."
+        you_will_be_redirected_to: "Після того, як ви видалите проект, ви будете перенаправлені на %{destination}. Після цього ви не зможете отримати доступ до проекту."
+        delete_this_marketplace: "Видалити цей проект"
+        payment_preferences: "Платіжна система"
+      manage_members:
+        manage_members: "Управління участниками"
+        email: E-mail
+        name: Ім'я
+        display_name: "Відображуване ім'я"
+        join_date: Приєднався
+        admin: Адміністрування
+        posting_allowed: "Публікації доступні"
+        ban_user: "Заблокувати учасника"
+        saving_user_status: Збереження...
+        save_user_status_successful: Збережено
+        export_all_as_csv: "Експортувати все як CSV"
+        save_user_status_error: "Під час збереження поля сталася помилка Обновіть сторінку і спробуйте ще раз."
+        ban_user_confirmation: "Це видалить учасника з проекту і доступ з цього аккаунта буде не можливий. Ви впевнені що хочете продовжити?"
+        unban_user_confirmation: ~
+        ban_me_error: "Ви не можете заблокувати самі себе"
+        search: ~
+        search_by_name_email: ~
+        reset_search: ~
+        for_search_terms: ~
+        this_makes_the_user_an_admin: ~
+      new_layout:
+        new_layout: "Новий макет"
+        description_roadmap_new: "Коли для вашого маркетплейсу будуть доступні нові компоненти макета, ви зможете обрати, використовувати нові або старі компоненти. Ви зможете переключати свої налаштування у будь-який час з цієї сторінки. Рекомендується завжди використовувати нову версію, оскільки старі компоненти з часом можуть бути відключені. В разі, якщо компонент, який ви використовуєте в даний час, буде плануватися відключити, вам повідомлять заздалегідь."
+        enabled_for_you: "Доступно для вас"
+        enabled_for_all: "Доступно для всіх"
+        new_topbar: "Нова верхня панель (видима на кожній сторінці)"
+        searchpage: "Нова сторінка пошуку (необхідна нова верхня панель)"
+      social_media:
+        social_media: "Соціальні медіа"
+        twitter_handle: "Twitter аккаунт"
+        twitter_handle_info_text: "Twitter аккаунт вашого проекту (якщо є). Буде згадуватися коли люди використовують кнопку tweet на сторінці публікації."
+        twitter_handle_info_text_with_instructions: "Login Twitter аккаунта вашого маркетплейс (якщо є). Він буде згадуватися коли люди використовують кнопку tweet на сторінці публікації. %{instructions_link}."
+        twitter_instructions_link_text: "Дізнатися більше"
+        twitter_handle_placeholder: Логін
+        invalid_twitter_handle: "Назва twitter аккаунта максимум має містити 15 знаків (букви A-Z і цифри 0-9)."
+        facebook_connect: Facebook
+        facebook_connect_info_text: "Щоб дозволити вхід через Facebook, створіть додаток для вашого проекту <a href='https://developers.facebook.com/'> Facebook developers dashboard</a>. Додайте створенний ID і секретний ключ додатка тут."
+        facebook_connect_info_text_with_instructions: "Щоб дозволити вхід через Facebook, створіть додаток для вашого проекту <a href='https://developers.facebook.com/'> Facebook developers dashboard</a>. Додайте створенний ID і секретний ключ додатка тут. %{instructions_link}"
+        facebook_instructions_link_text: "Інструкції по налаштуванню Facebook Connect."
+        facebook_connect_id: "Facebook ID"
+        invalid_facebook_connect_id: "ID повинен містити тільки цифри"
+        facebook_connect_secret: "Facebook client secret"
+        invalid_facebook_connect_secret: "Client secret повинен містити тільки цифри і букви від a до f."
+        enable_facebook_login: ~
+        save: "Зберегти налаштування"
+      analytics:
+        analytics: Аналітика
+        google_analytics_key: "Google Analytics tracking ID"
+        google_analytics_key_info_text: "Tracking ID вашого Google Analytics account"
+        google_analytics_key_info_text_with_instructions: "Tracking ID вашого Google Analytics аккаунта. %{instructions_link}."
+        google_analytics_instructions_link_text: "Дізнатися більше про підключення Google Analytics"
+        sharetribe_analytics: ~
+        sharetribe_analytics_info_text_with_instructions: ~
+        sharetribe_analytics_instructions_link_text: ~
+        end_user_analytics: ~
+        save: "Зберегти налаштування"
+      menu_links:
+        menu_links: "Посилання меню"
+        save: "Зберегти налаштування"
+        add_menu_link: "Додати нове посилання до меню"
+        title_placeholder: "Назва посилання"
+        url_placeholder: "http://example.com/en"
+        title: Назва
+        language: Мова
+        url: URL
+        empty: "У вас немає додаткових посилань меню"
+        max_number_of_links: "Макс. кількість посилань, відображуваних в верхньому рядку: %{select_max_number}"
+        all: Всі
+        max_number_of_links_info: "Посилання на %{about_page} завжди відображається як перше посилання меню"
+        about_page: "про сторінку"
+      topbar:
+        topbar: "Верхня панель"
+        new_listing_button_label: "Змінити текст нової кнопки виведення каталогу"
+        invalid_post_listing_button_label: "Будь ласка, введіть актуальний текст для кнопки \"Опублікувати новий каталог\""
+      transactions:
+        export_all_as_csv: "Експортувати все як CSV"
+        processing_export: ~
+        transactions: "Подивитися транзакції"
+        headers:
+          conversation: Обговорення
+          listing: Публікація
+          status: Статус
+          sum: Сума
+          started: Розпочато
+          last_activity: "Остання активність"
+          initiated_by: Автор
+          other_party: "Інша сторона"
+        status:
+          conversation: ~
+          free: Діалог
+          pending: Очікування
+          preauthorized: Предавторізація
+          accepted: Прийнято
+          rejected: Відхилено
+          paid: Сплачено
+          confirmed: Підтверджено
+          canceled: Скасовано
+          initiated: "Очікування платежу PayPal"
+          pending_ext: "Очікування платежу PayPal"
+          none:
+            free: ~
+          paypal:
+            free: ~
+            pending: ~
+            preauthorized: ~
+            accepted: ~
+            rejected: ~
+            paid: ~
+            confirmed: ~
+            canceled: ~
+            initiated: ~
+            pending_ext: "Очікування платежу PayPal"
+          stripe:
+            free: ~
+            pending: ~
+            preauthorized: ~
+            accepted: ~
+            rejected: ~
+            paid: ~
+            confirmed: Підтверджено
+            canceled: Скасовано
+            initiated: "Очікування платежу Stripe"
+            pending_ext: "Очікування платежу Stripe"
+        not_available: "Не доступно"
+      conversations:
+        conversations: ~
+        headers:
+          started_from: ~
+          status: ~
+          started: ~
+          last_activity: ~
+          initiated_by: ~
+          other_party: ~
+        participants: ~
+        profile: ~
+      testimonials:
+        testimonials: ~
+        no_testimonials_found: ~
+        displaying_xx_reviews: ~
+        headers:
+          transaction: ~
+          author: ~
+          receiver: ~
+          status: ~
+          grade: ~
+          note: ~
+        status:
+          waiting: ~
+          skipped: ~
+          published: ~
+    custom_fields:
+      edit:
+        edit_listing_field: "Редагувати поле публікації \"%{field_name}\""
+      edit_price:
+        description: "Мінімальна і максимальная ціна впливає тільки на фільтр. Для прейскурантних цін немає обмежень."
+        edit_price_field: "Редагувати поле ціни"
+        show_price_filter_homepage: "Показати фільтр ціни на головній сторінці"
+        price_min: "Мінімальна ціна"
+        price_max: "Максимальная ціна"
+      edit_location:
+        edit_location_field: "Редагувати поле місцезнаходження"
+        this_field_is_required: "Це обов'язкове поле"
+      edit_expiration:
+        edit_expiration_field: "Редагувати поле каталога 'Дата закінчення терміну'"
+        enable: "Активувати дату закінчення терміну"
+      form:
+        field_required:
+          this_field_is_required: "Це обов'язкове поле"
+          this_field_is_required_checkbox: "Це обов'язкове поле (користувач повинен обрати принаймні одну опцію)"
+        search_filter:
+          search_filter: "Показати даний фільтр на домашній сторінці"
+          date_cant_be_filtered: "Немає фільтру для поля із вказівкою дати."
+          text_cant_be_filtered: "Немає фільтру для поля введення тексту. Основний текстовий пошук здійснюється за текстовими полями."
+      index:
+        listing_fields: "Поля і фільтри для публікацій"
+        listing_fields_help: "Тут ви можете Редагувати поля які учасники повинні заповнити коли вони створюють нову публікацію. Будь ласка майте на увазі що деякі поля визначені і не не можуть бути редаговані."
+        add_new_field: "Додати нове поле"
+        remove_field_confirmation: "Ви впевнені що хочете видалити поле \"%{field_name}\"?"
+        cancel: Скасувати
+        save: Зберегти
+        field_title: "Назва поля"
+        field_type: "Тип поля"
+        categories: "Категорії публікацій де дане поле використовується"
+        select_all: "Обрати всі"
+        clear_all: "Очистити всі"
+        options: Варіанти
+        add_option: "+ Додати опцію"
+        saving_order: "Збереження порядку полів"
+        save_order_successful: "Порядок полів успішно збережений"
+        save_order_error: "Під час збереження поля сталася помилка Обновіть сторінку і спробуйте ще раз."
+        select_one: "Оберіть тип поля..."
+        continue: Продовжити
+        minimum_value: Мінімум
+        maximum_value: Максимум
+        allow_decimals: "Дозволені десяткові значення"
+      new:
+        new_listing_field: "Нове поле публікації"
+      field_types:
+        text: Текст
+        number: Число
+        dropdown: "Випадаюче меню"
+        checkbox_group: Прапорець
+        date: Дата
+    emails:
+      new:
+        send_email_to_members: "Надіслати електронного листа користувачам"
+        send_email_to_members_title: "Надіслати електронного листа всім членам спільноти"
+        send_email: "Надіслати лист"
+        send_email_or: або
+        send_test_email: "Надіслати тестовий лист самому собі"
+        test_sent: "Тестовий лист було направлено на ваш електронний адрес"
+        send_email_article_title: "дана позиція"
+        send_email_article_text: "Детальніше дізнатися про користувацькі сегменти: %{article_link}."
+        recipients:
+          title: "Кому ви хочете надіслати email?"
+          options:
+            all_users: "Всі користувачі"
+            with_listing: "Користувачі, які розмістили хоча б один каталог"
+            with_listing_no_payment: "Користувачі, які розмістили хоча б один каталог, але не додали свої платіжні реквізити"
+            with_payment_no_listing: "Користувачі, які додали свої платіжні реквізити, але не розмістили каталог"
+            no_listing_no_payment: "Користувачі, які не розмістили каталог і не додали свої платіжні реквізити"
+        email_subject: "Тема листа"
+        email_content: "Зміст листа"
+        email_content_placeholder: "Що б ви хотіли сказати?"
+        email_language: "Мова одержувачів листа"
+        any_language: "Будь-якою мовою"
+        message_will_be_sent_only_to_people_with_this_language: "Примітка: лист буде відправлено тільки тим членам спільноти, які користуються %{service_name} на обраній вами мові"
+        email_sent: "Лист відправлено"
+        to_improve_email_deliverability: ~
+        email_subject_text: ~
+        firstname_cannot_be_removed: ~
+        hello_firstname: ~
+        hello_firstname_text: ~
+    left_hand_navigation:
+      general: Основні
+      users_and_transactions: "Учасники і транзакції"
+      configure: Конфігурація
+      emails_title: Emails
+      subscription: Підписка
+      preview: "Попередній перегляд сайту"
+    listing_shapes:
+      availability_title: Доступність
+      read_more: "Дізнатися більше про автоматичне управління доступністю."
+      read_more_availability_management: "Дізнатися більше про управління доступністю."
+      allow_providers_to_manage_availability: "Дозволити постачальникам керувати своєю доступністю з календаря"
+      per_hour_availability: ~
+      per_day_availability: "Доступність \"на день\""
+      per_night_availability: "Доступність \"на ніч\""
+      pricing_units_disabled_info: "Параметри ціни не можуть бути використані при активованому календарі доступності."
+      can_not_find_name: "Не виходить знайти тип замовлення із вказаним ім'ям: %{name}"
+      index:
+        listing_shapes: "Типи замовлень"
+        description: "Типи замовлень визначають, яким чином процес замовлення працює на вашому сайті. Ви можете вирішити, чи будуть користувачі орендувати або продавати, або просто публікувати оголошення і спілкуватися за допомогою безкоштовних повідомлень."
+        read_more_about_order_types: "Детальніше про типи замовлення"
+        add_new_shape: "Додати новий тип замовлення:"
+        select_template: "Оберіть шаблон..."
+        all_categories: "Всі рубрики"
+        no_categories: "Рубрик немає"
+        category_count: "Категорій: %{category_count}"
+        header:
+          listing_shape_name: "Ім'я типу замовлення"
+          listing_shape_categories: ~
+        order:
+          saving_order: "Збереження замовлення"
+          save_order_successful: ~
+          save_order_error: ~
+      templates:
+        selling_products: "Продаж товарів"
+        renting_products: "Оренда товарів"
+        offering_services: "Пропозиція послуг"
+        giving_things_away: "Віддача речей"
+        requesting: Запитувати
+        announcement: ~
+        custom: Користувальницький
+      new:
+        create_listing_shape: "Cтворити тип замовлення"
+        create: Cтворити
+        cancel: Скасувати
+        create_success: "Створено новий тип '%{shape}' замовлення"
+        create_failure: "Не вдалося зберегти новий тип замовлення. Помилка: %{error_msg}"
+      edit:
+        edit_listing_shape: "Редагувати тип замовлення '%{shape}'"
+        update: Зберегти
+        cancel: Скасувати
+        update_success: "Зміна типу замовлення '%{shape}' збережено"
+        update_failure: "Не вдалося зберегти зміни. Помилка: %{error_msg}"
+        delete: "Видалити тип замовлення"
+        confirm_delete_order_type:
+          one: "Є %{count} оголошення з цим типом замовлень. Якщо ви видалите тип замовлення, це оголошення буде закрито. Видалити тип замовлення?"
+          few: "Є %{count} оголошення з цим типом замовлень. Якщо ви видалите тип замовлення, ці оголошення будуть закриті. Видалити тип замовлення?"
+          many: "Є %{count} оголошень з цим типом замовлень. Якщо ви видалите тип замовлення, ці оголошення будуть закриті. Видалити тип замовлення?"
+          other: "Є %{count} оголошень з цим типом замовлень. Якщо ви видалите тип замовлення, ці оголошення будуть закриті. Видалити тип замовлення?"
+        can_not_delete_last: "Ви не можете видалити цей тип замовлення, тому що це єдиний тип в вашому маркетплейсі."
+        can_not_delete_only_one_in_categories: "Ви не можете видалити цей тип замовлення, тому що в наступних категоріях цей тип замовлення єдиний: %{categories}"
+      listing_shape_name: Ім'я
+      listing_shape_name_placeholder: Продати
+      action_button_label: "Ярлик кнопки виконання замовлення"
+      action_button_placeholder: Купити
+      open_listings_warning:
+        one: "Для данного типу замовлень є тільки %{count} каталог. Якщо ви зміните будь-який з нижчезазначених параметрів, даний каталог збереже старі налаштування. Нові налаштування можуть бути встановлені вручну. Якщо ви хочете, щоб старі налаштування не відображалися на сайті, ви можете закрити їх за допомогою кнопки, розташованої нижче."
+        few: "Для данного типу замовлень є %{count} каталогів. Якщо ви зміните будь-який з нижчезазначених параметрів, дані каталоги збережуть старі налаштування. Нові налаштування можуть бути встановлені вручну. Якщо ви хочете, щоб старі налаштування каталогів не відображалися на сайті, ви можете закрити їх за допомогою кнопки, розташованої нижче."
+        many: "Для данного типу замовлень є %{count} каталогів. Якщо ви зміните будь-який з нижчезазначених параметрів, дані каталоги збережуть старі налаштування. Нові налаштування можуть бути встановлені вручну. Якщо ви хочете, щоб старі налаштування каталогів не відображалися на сайті, ви можете закрити їх за допомогою кнопки, розташованої нижче."
+        other: "Для данного типу замовлень є %{count} каталогів. Якщо ви зміните будь-який з нижчезазначених параметрів, дані каталоги збережуть старі налаштування. Нові налаштування можуть бути встановлені вручну. Якщо ви хочете, щоб старі налаштування каталогів не відображалися на сайті, ви можете закрити їх за допомогою кнопки, розташованої нижче."
+      close_listings_action:
+        one: "Закрити %{count} оголошення"
+        few: "Закрити %{count} оголошення"
+        many: "Закрити %{count} оголошень"
+        other: "Закрити %{count} оголошень"
+      confirm_close_listings_action:
+        one: "Бажаєте закрити %{count} оголошення?"
+        few: "Бажаєте закрити %{count} оголошення?"
+        many: "Бажаєте закрити %{count} оголошень?"
+        other: "Бажаєте закрити %{count} оголошень?"
+      successfully_closed: "Публікації успішно закриті"
+      successfully_deleted: "Успішно видалений тип '%{order_type}' замовлення"
+      pricing_and_checkout_title: "Ціна і розрахунок"
+      online_payments_label: ~
+      shipping_label: "Дозволити продавцям вказувати ціну доставки"
+      price_label: ~
+      units_title: "Цінові одиниці"
+      units_desc: "Якщо ви увімкнули цінові одиниці, ціна лістингу відображається як \"ціна за одиницю\". Приклад: \"$39 в годину\"."
+      units:
+        piece: "За одиницю"
+        hour: "За годину"
+        day: "За день"
+        night: "За ніч"
+        week: "За неділю"
+        month: "За місяць"
+      can_not_find: "Не вдається знайти тип замовлення з ID: %{id}"
+      add_custom_unit: "+ Додати користувальницьку цінову одиницю..."
+      delete_custom_unit: видалити
+      custom_unit_form:
+        title: "Нова цінова одиниця"
+        label_heading: Ярлик
+        selector_label_heading: "Мітка селектора"
+        label_placeholder: "наприклад: \"Кг\", \"30 хвилин\", \"людина\", \"клас\""
+        selector_placeholder: "наприклад: \"Кількість людей\", \"Сума в кг\""
+        per: За
+        unit_type:
+          heading: "Тип одиниці"
+          quantity_label: "Кількість (за штуку, за кг, за людину, за 2 години екскурсії...)"
+          time_label: "Час (за 30 хвилин, за 2 неділі, в рік)"
+    paypal_accounts:
+      marketplace_paypal_integration: "Налаштування платежів"
+      preferences_updated: "Налаштування платежів оновлені."
+      contact_support_link_text: "зверніться в службу підтримки Sharetribe"
+      integration_info_text: "Система платежів Sharetribe функціонує на основі PayPal. Якщо ви бажаєте дозволити вашим користувачам здійснювати платежі у вашому проекті, ви зобов'язані підключити ваш аккаунт PayPal і визначити мінімальний розмір транзакції і комісію, яку ви бажаєте встановити від кожної транзакції."
+      link_paypal_personal_account_label: "Ви надаєте товари або послуги самі?"
+      link_paypal_personal_account: "Якщо так, то вам необхідно підключити обліковий запис PayPal до %{personal_payment_preferences_link}"
+      link_stripe_personal_account: "В цьому випадку необхідно додати платіжні реквізити в %{personal_payment_preferences_link}"
+      link_paypal_and_stripe_personal_account: "В цьому випадку необхідно додати обліковий запис PayPal або Stripe в %{personal_payment_preferences_link}"
+      personal_payment_preferences_link_text: "ваш особистий маркетплейс аккаунт"
+      read_more_about_paypal: "Дізнатися більше про систему платежів Sharetribe"
+      edit_payment_settings: "Редагувати налаштування платежів"
+      supported_currencies_information_text: "Система онлайн-платежів Sharetribe підтримує 24 валюти. Якщо ваша валюта не в списку, будь ласка, зверніться за адресою %{contact_support_link}. Якщо ви зміните валюту маркетплейса, поточні каталоги збережуть стару валюту. Щоб використовувати нову валюту, вам необхідно Редагувати каталоги окремо."
+      currency_change_warning_text: "Увага: якщо ви зміните валюту, не забудьте повідомити ваших продавців, щоб вони вручну змінили налаштування валюти в своїх каталогах."
+      marketplace_currency_label: "Валюта маркетплейса:"
+      minimum_listing_price_label: "Мінімальний розмір транзакції:"
+      transaction_fee_label: "Комісія за транзакцію:"
+      minimum_transaction_fee_label: "Мінімальна комісія за платіж:"
+      save_settings: "Зберегти налаштування"
+      minimum_listing_price_below_tx_fee: "має бути не менше ніж мінімальна комісія за транзакцію %{minimum_transaction_fee}."
+      minimum_listing_price_below_min: "має бути більше ніж мінімальна комісія %{minimum_commission}."
+    payment_preferences:
+      title: "Налаштування платіжних систем"
+      general_settings: "1. Загальні налаштування"
+      connect_a_payment_provider: "2. Підключення платіжної системи"
+      contact_support: ~
+      no_payments_link_text: ~
+      your_country: "Країна вашого місцезнаходження:"
+      you_cannot_use_online_payments: ~
+      which_to_choose: ~
+      you_can_use_stripe_or_paypal: ~
+      you_can_use_stripe_only: ~
+      read_more_stripe: ~
+      you_can_use_paypal_only: ~
+      read_more_paypal: "Дізнайтеся більше про платежі PayPal."
+      read_more_about_paypal_and_stripe: ~
+      general_settings_updated: ~
+      transaction_fee_settings_updated: ~
+      choose_popup_text: ~
+      invalid_api_keys: ~
+      missing_api_keys: ~
+      stripe_verified: ~
+      change_settings: ~
+      configure_stripe: ~
+      configure_paypal: ~
+      transaction_fee_settings: ~
+      transaction_fee_save: ~
+      stripe_fee: ~
+      stripe_fee_notice: ~
+      fee_should_be_less_than_minimum_price: ~
+      confirm_disable: ~
+      stripe_connected:
+        title: ~
+        disable: ~
+        disabled: ~
+        enable: ~
+      paypal_connected:
+        title: ~
+        disable: ~
+        disabled: ~
+        enable: ~
+      cannot_enable_gateway: ~
+      cannot_disable_gateway: ~
+      stripe_form:
+        add_your_api_keys: ~
+        how_to_get_these: ~
+        publishable_key_example: ~
+        secret_key_example: ~
+        save_api_keys: ~
+        invalid_secret: ~
+        invalid_publishable: ~
+      index:
+        header: ~
+        info: ~
+        active: ~
+        gateway: ~
+        process: ~
+        commission: ~
+        minimum_price: ~
+        minimum_fee: ~
+        api_verified: ~
+        actions: ~
+        payments_not_enabled: ~
+    transaction_types:
+      sell: Продаж
+      sell_w_online_payment: ~
+      sell_wo_online_payment: ~
+      rent: Оренда
+      rent_w_online_payment: ~
+      rent_wo_online_payment: ~
+      give: "Віддам безкоштовно"
+      lend: "Дам на час"
+      swap: Обмін
+      service: Що пропонують
+      service_w_online_payment: ~
+      service_wo_online_payment: ~
+      request: Потрібно
+      inquiry: Запит
+      share_for_free: "Безкоштовно поділюсь"
+      default_action_button_labels:
+        sell: Купити
+        rent: Оренда
+        request: Пропозиція
+        offer: Запит
+        inquiry: Зв'язатися
+  common:
+    edit_page: "Редагувати сторінку"
+    default_community_slogan: "Співпрацюйте, діліться і допомагайте"
+    default_community_description: "Це місце, де учасники нашої спільноти можуть обмінюватися речами, послугами, поїздками і житлом. Розкажіть іншим, про те, що ви можете запропонувати і що потребуєте самі."
+    cancel: Скасувати
+    fields_that_are_mandatory: "Поля, відмічені зірочкою (*), є обов'язковими."
+    or: або
+    password: Пароль
+    service_name: "%{service_name}"
+    share_types:
+      request: запит
+      offer: пропозиція
+      borrow: "на час"
+      buy: куплю
+      give_away: віддам
+      lend: "тимчасово"
+      receive: "прийму в дар"
+      rent: прокат
+      rent_out: прокат
+      sell: продам
+      offer_to_swap: обмін
+      request_to_swap: обмін
+      share_for_free: "безкоштовно поділюсь"
+      accept_for_free: "бажаю отримати в дар"
+    categories:
+      item: Продукти
+      favor: Послуги
+      rideshare: "Спільні поїздки"
+      housing: Проживання
+      tools: Інструменти
+      sports: Спорт
+      music: Музика
+      books: "Книги та Журнали"
+      games: "Ігри та Іграшки"
+      furniture: Меблі
+      outdoors: "Товари для відпочинку"
+      food: "Кухонне начиння і продукти"
+      electronics: Електроніка
+      pets: "Домашні тварини"
+      film: Фільми
+      clothes: "Одяг та аксесуари"
+      garden: "Сад і город"
+      travel: Подорожі
+      other: Інше
+    username: "Ім'я користувача"
+    username_or_email: "Ім'я користувача або електронна пошта"
+    what_is_this: "Що це?"
+    removed_user: "Видалений користувач"
+    payment_fee_info:
+      title: ~
+      stripe: ~
+      paypal: ~
+      info: ~
+    paypal_fee_info:
+      title: "PayPal комісія за обробку платежу"
+      body_text: "PayPal утримує комісію з кожного платежу. Ця комісія знаходиться в межах від 2% до 5% від загальної суми, і залежить від ваших щомісячних продаж і країни резиденції покупця. Загалом, локальні покупки мають меншу комісію ніж міжнародні, і збільшення щомісячних продаж дає вам можливість зменшити комісію. Ви можете побачити точну суму комісії зайшовши в ваш PayPal аккаунт %{link_to_paypal}. Після кожної покупки ви будете отримувати квитанцію що відображає точну суму комісії."
+      body_text_accept: ~
+      link_to_paypal_text: тут
+    stripe_fee_info:
+      title: ~
+      body_text: ~
+      link_to_stripe_text: ~
+  conversations:
+    accept:
+      details: "Деталі замовлення"
+      order_by: "Замовлення %{orderer_link}"
+      accept_offer: "Прийняти пропозицію"
+      accept_request: "Прийняти запит"
+      reject_offer: "Не зараз"
+      reject_request: "Не зараз"
+      close_listing: "Закрити оголошення %{listing_title_link}"
+      update_later: "Залишити розміщення відкритим"
+      optional_message: "Повідомлення (не обов'язково)"
+      price_to_pay: "Сума до сплати"
+      accept: Прийняти
+      decline: Відхилити
+      quantity_label: "Кількість:"
+      sum_label: "Проміжний підсумок:"
+      service_fee_label: "%{service_name} комісія:"
+      you_will_get_label: "Ви отримаєте:"
+      total_label: "Підсумок:"
+      total_value: "%{seller_gets}*"
+      total_value_paypal: ~
+      total_value_stripe: ~
+      paypal_fee_info: "* Виключає <a id='%{fee_info_link_id}' href='#'> комісію PayPal за обробку платежу</a>"
+      payment_fee_info: ~
+      shipping_price_label: "Доставка:"
+      stripe-fee_label: ~
+    confirm:
+      confirm_description: "Якщо ваш запит був виконаний ви повинні підтвердити його як завершений. Потім ви можете залишити відгук."
+      cancel_description: "Якщо ваш запит не був виконаний ви можете відмітити його як \"не виконаний\". Тим не менше ви можете залишити відгук і описати ситуацію."
+      cancel_payed_description: "Якщо ваш запит був прийнятий, але ви переглянули свої наміри, тим не менше ви можете скасувати ваш запит перед оплатой."
+      canceling_payed_transaction: "Скасувати транзакцію"
+      confirm: "Відмітити як завершене"
+      cancel: Спірно
+      continue: Продовжити
+      give_feedback_to: "Залишити відгук про %{person_link}"
+      do_not_give_feedback: "Не залишати відгук"
+    details:
+      day: день
+      days: днів
+      price_per_day: "Ціна за день: %{price}"
+    index:
+      loading_more_messages: "Завантаження повідомлень"
+      message_partitive: повідомлення
+      messages_partitive: повідомлень
+      no_received_messages: "Немає повідомлень"
+      no_sent_messages: "Немає відправлених повідомлень"
+    conversation:
+      accepted_request: "Запит прийнятий."
+      accepted_offer: "Пропозицію прийнято."
+      rejected_request: "Запит відхилено."
+      rejected_offer: "Пропозицію відхилено."
+      confirmed_request: "Угода по запиту завершена."
+      confirmed_offer: "Акція завершена."
+      canceled_request: "Запит скасований."
+      canceled_offer: "Пропозицію скасовано."
+      message_from: "Повідомлення від %{person}"
+      about_listing: "Про пропозицію %{listing_title}"
+      free_message: Повідомлення
+      message_content_not_available: "Вміст повідомлення недоступний"
+    message:
+      accepted_request: "запит прийнятий"
+      received_payment: "запит прийняв, отримав платіж на суму %{sum}"
+      accepted_offer: "пропозицію прийнято"
+      rejected_request: "запит відхилено"
+      rejected_offer: "пропозицію відхилено"
+      confirmed_request: "Відмітити запит як завершений"
+      confirmed_offer: "Відмітити пропозицію як завершену"
+      canceled_request: "відмінний запит"
+      canceled_offer: "скасована пропозиція"
+      paid: "сплачено %{sum}"
+      payment_preauthorized: "Оплата авторизована: %{sum}"
+      stripe:
+        held_payment: ~
+        confirmed_request: ~
+    new:
+      message: Повідомлення
+      message_to: "Повідомлення %{author_name}"
+      optional_message_to: "Повідомлення для %{author_name}"
+      send_message: "Надіслати повідомлення"
+      send: Надіслати
+      this_message_is_private: "Це приватне повідомлення між вами і %{person}. %{person} буде повідомлений(-а) про це повідомлення по електронній пошті."
+      you_will_get_notified_of_acceptance: "Ви отримаєте повідомлення по електронній пошті коли %{person} прийме або відхилить вашу пропозицію."
+      you_will_get_notified: "Ви отримаєте повідомлення по електронній пошті коли %{person} відповість вам."
+      title: Заголовок
+      send_message_to_user: "Надіслати повідомлення %{person}"
+      about_listing: "Про публікації %{listing_title}"
+      author_has_to_accept_request: "%{author_name} необхідно прийняти запит від вас до того як ви будете оплачувати"
+    show:
+      in_response_to_listing: "про публікації"
+      message_sent_by: "Повідомлення відправлено"
+      message_sent_to: "Повідомлення відправлено"
+      send_reply: "Надіслати відповідь"
+      write_a_reply: "Написати відповідь:"
+      conversation_about_listing: "Діалог з %{person} про %{listing}."
+      conversation_with_user: "Діалог з %{person}."
+      conversation_with: "Діалог з %{person}"
+      last_message_at: "(останнє повідомлення: %{time})"
+      price: "Ціна: %{price}"
+      sum: "Всього: %{sum}"
+      total: "Сума: %{total}"
+    status:
+      payment_errored: "Помилка в процесі оплати. Повторіть спробу."
+      payment_errored_starter: "Помилка в процесі оплати. Повторіть спробу. Якщо проблема повториться, зв'яжіться з нами."
+      payment_errored_author: "Платіж не пройшов. Будь ласка зв'яжіться з %{starter_name} і попросіть повторити платіж."
+      cancel_payed_transaction: Скасувати
+      feedback_given: "Відгук відправлений"
+      feedback_skipped: "Відгук скасований"
+      give_feedback: "Дати відгук"
+      offer_accepted: Прийнято
+      offer_rejected: Відхилено
+      offer_canceled: Скасовано
+      offer_confirmed: Завершено
+      offer_paid: "Оплата виконана успішно"
+      offer_preauthorized: "Оплата виконана успішно"
+      offer_waiting_for_payment: "Очікування від %{requester_name} оплати"
+      pay: Оплатити
+      preauthorized: "Оплата виконана успішно"
+      paid: "Оплата виконана успішно"
+      pending_external:
+        paypal:
+          multicurrency: "Ми не змогли здійснити процес оплати PayPal тому що ваш PayPal аккаунт не був налаштований на отримання коштів в %{currency}. Перейдіть %{paypal_url} і ввійдіть в ваш аккаунт щоб вручну прийняти або відхилити платіж."
+          verify: "Ви не зможете завершити і прийняти даний платіж так як ви не підтвердили ваш PayPal аккаунт. Перейдіть на %{paypal_url} щоб підтвердити ваш аккаунт."
+          intl: "Ми не змогли здійснити процес оплати PayPal тому що ваш PayPal аккаунт не має функції зняття з рахунку. Перейдіть на %{paypal_url} і ввійдіть в ваш аккаунт щоб вручну прийняти або відхилити платіж."
+      waiting_for_current_user_to_deliver_listing: "Очікування доставки від вас %{listing_title}"
+      waiting_for_listing_author_to_deliver_listing: "Очікування від %{listing_author_name} доставки %{listing_title}"
+      request_accepted: "Запит прийнятий"
+      request_rejected: "Запит відхилено"
+      request_confirmed: Завершено
+      request_canceled: Скасовано
+      request_paid: "Оплата виконана успішно"
+      request_preauthorized: "Оплата виконана успішно"
+      skip_feedback: "Пропустити відгук"
+      waiting_for_listing_author_to_accept_offer: "Очікування від %{listing_author_name} прийняття пропозиції"
+      waiting_for_listing_author_to_accept_request: "Очікування від %{listing_author_name} прийняти запит"
+      waiting_for_you_to_accept_request: "Очікування від вас прийняття запиту"
+      waiting_confirmation_from_requester: "Очікую %{requester_name} щоб відмітити запит завершеним"
+      waiting_confirmation_from_you: "Очікування від вас відмітки запиту виконаним"
+      waiting_payment_from_requester: "Очікування від %{requester_name} оплати"
+      waiting_payment_from_you: "Очікування оплати від вас"
+      waiting_feedback_from_you: "Очікування відгуку від вас"
+      pending_external_inbox:
+        paypal:
+          multicurrency: "Очікування вашого прийняття платежу PayPal."
+          intl: "Очікування вашого прийняття платежу PayPal."
+          unknown_reason: "Платіж відкладено. Ввійдіть у ваший PayPal аккаунт щоб отримати деталі."
+          verify: "Очікування підтердження вашого PayPal аккаунта."
+      stripe:
+        waiting_confirmation_from_requester: ~
+    status_link:
+      accept_offer: "Прийняти пропозицію"
+      accept_request: "Прийняти запит"
+      reject_offer: "Не цього разу"
+      reject_request: "Не цього разу"
+      accept_preauthorized_offer: "Прийняти пропозицію"
+      accept_preauthorized_request: "Прийняти запит"
+      reject_preauthorized_offer: "Не зараз"
+      reject_preauthorized_request: "Не зараз"
+      confirm: "Відмітити як завершене"
+      cancel: Спірно
+  feedback:
+    feedback_subject: "Нове повідомлення від %{service_name}"
+    feedback_body: "%{author_name_and_email} відправив наступне повідомлення від %{service_name}"
+    unlogged_user: "Незареєстрований користувач"
+    anonymous_user: "Анонімний користувач"
+  community_memberships:
+    access_denied:
+      access_denied: "Доступ заборонено"
+      you_are_banned_in_this_community: "Адміністратор заборонив вам доступ до %{service_name}. Якщо ви бажаєте зв'язатися з адміністратором, натисніть %{link_to_contact_page}."
+      contact_page_link: Відгуки
+    new:
+      welcome_fb_user: "%{name}, ласкаво просимо в %{service_name}!"
+      fb_join_accept_terms: "Залишився всього один крок - ви повинні прийняти правила використання %{service_name}."
+      join_community: "Приєднуйтесь до %{service_name}"
+      you_can_join: "Ви можете приєднатися до %{service_name}, прийнявши умови використання і натиснувши кнопку \"Приєднатися до %{service_name}\" нижче."
+      you_can_join_email_confirmation: "Щоб приєднатися до %{service_name}, вам необхідно мати робочий поштовий адрес, закінчується на %{email_ending}. Ви зможете приєднатися до спільноті, ввівши свій адрес електронної пошти, прийнявши умови використання цієї спільноти і натиснувши кнопку \"Приєднатися до %{service_name}\", розташовану нижче."
+      you_can_join_email_confirmation_multiple_addresses: "%{service_name} має обмеження по адресам email. Ви можете приєднатися тільки якщо ви маєте авторизований email адрес. Ви можете приєднатися заповнивши email адрес, прийнявши умови використання %{service_name} і натиснувши кнопку \"Приєднатися до %{service_name}\" розташовану нижче."
+      you_can_join_with_invite_only: "Для вступу в %{service_name}, вам необхідно мати код запрошення від кого-небудь з учасників. Ви зможете Приєднатися до спільноті, ввівши код запрошення в поле нижче, прийнявши умови використання цієї спільноти і натиснувши кнопку \"Приєднатися до %{service_name}\", розташовану нижче."
+      if_want_to_view_content: "Якщо ви хочете переглянути контент в %{service_name} без приєднання до нього необхідно"
+      log_out: вийти
+      join_community_button: "Приєднатися до %{service_name}"
+    give_consent:
+      invitation_code_invalid_or_used: ~
+      email_not_allowed: ~
+      email_not_available: ~
+      consent_not_given: ~
+  emails:
+    accept_reminder:
+      remember_to_accept_offer: "Нагадування про необхідність прийняти або відхилити пропозицію від %{sender_name}"
+      remember_to_accept_request: "Нагадування про необхідність прийняти або відхилити запит від %{sender_name}"
+      you_can_accept_or_reject_offer_at: "Ви можете прийняти або відхилити пропозицію "
+      you_can_accept_or_reject_request_at: "Ви можете прийняти або відхилити запит "
+      you_have_not_yet_accepted_or_rejected_offer: "Ви все ще не прийняли рішення за пропозицією '%{title}', отриманому вами %{date}."
+      you_have_not_yet_accepted_or_rejected_request: "Ви все ще не прийняли рішення по запиту '%{title}', отриманому вами %{date}."
+      show_thread: "Показати діалог"
+    branding:
+      powered_by: "%{service_name} надається за допомогою маркетплейс-платформи %{sharetribe_link}."
+      create_own: "Хотіли б cтворити свій власний маркетплейс як %{service_name}? Дізнайся більше %{learn_more}."
+      learn_more: "Дізнатися більше"
+    confirm_reminder:
+      you_have_not_yet_confirmed_or_canceled_request: "Ви поки ще не підтвердили або скасували запит %{request_link}. Якщо запит був виконаний, вам необхідно підтвердити це. Після цього ви можете залишити відгук про %{other_party_given_name}."
+      remember_to_confirm_request: "Не забудьте підтвердити або скасувати запит"
+      if_will_not_happen_you_should_cancel: "Якщо ви припускаєте, що запит не буде виконаний по різним причинах, ви можете його скасувати %{cancel_it_link}."
+      cancel_it_link_text: скасувати
+      automatic_confirmation: "Якщо ви не підтвердите або скасуєте запит протягом %{days_to_automatic_confirmation} днів після прийняття цього запиту, ми автоматично відзначимо його як виконаний."
+    payment_settings_reminder:
+      remember_to_add_payment_details: "Не забудьте вказати ваші реквізити для прийому оплати."
+      you_have_added_listing_with_payment: "Ви додали публікацію %{listing_link} з оплатой. Однак, ви ще не додали ваші платіжні дані. Щоб отримати оплату вам необхідно вказати платіжну інформацію."
+      please_go_to_payment_settings: "Будь ласка перейдіть в %{payment_settings_link} і вкажіть необхідну інформацію."
+      payment_settings_link: "налаштування оплати"
+    transaction_confirmed:
+      here_is_a_message_from: "Повідомлення від %{other_party_given_name}:"
+      request_marked_as_confirmed: "Запит завершений - не забудьте залишити відгук"
+      request_marked_as_canceled: "Запит скасований"
+      has_marked_request_as_confirmed: "%{other_party_full_name} відмітив запит %{request} виконаним. Тепер ви можете залишити відгук про %{other_party_given_name}."
+      has_marked_request_as_canceled: "%{other_party_full_name} скасував запит %{request}. Ви все ще можете залишити відгук про %{other_party_given_name}."
+      giving_feedback_is_good_idea: "Залишати відгук це завжди добре. Якщо все пройшло правильно, ви повинні поділитися з другими користувачами що %{other_party_given_name} можна довіряти. Або якщо були складнощі, про це також можна повідомити."
+      give_feedback_to: "Залишити відгук %{other_party_given_name}"
+      stripe:
+        has_marked_request_as_confirmed: ~
+    transaction_automatically_confirmed:
+      subject: "Запит завершений автоматично - не забудьте залишити відгук"
+      we_have_marked_request_as_confirmed: "Ми відмітили запит про \"%{request}\" виконаним. Даний запит був завершений автоматично так як пройшло %{days_passed} днів після того як запит був прийнятий."
+    booking_transaction_automatically_confirmed:
+      subject: "Запит автоматично виконаний - не забудьте залишити відгук"
+      we_have_marked_request_as_confirmed: "Ми відмітили запит про %{request} завершеним. Даний запит завершений автоматично так як пройшов один день після того як завершився період бронювання."
+    automatically_confirmed_footer:
+      giving_feedback_is_good_idea: "Ви можете залишити відгук про %{other_party_given_name}. Залишати відгук це завжди добре. Якщо все пройшло правильно, ви повинні поділитися з другими користувачами що %{other_party_given_name} можна довіряти. Або якщо були складнощі, про це також можна повідомити."
+      give_feedback_to: "Залиште відгук про %{other_party_given_name}"
+      show_thread: "Показати діалог"
+    confirmation_instructions:
+      confirmation_instructions_signature: "З найкращими побажаннями,</br>Команда %{service_name}"
+      need_to_confirm: "Ви повинні підтвердити свій адрес електронної пошти."
+      confirmation_link_text: "Підтвердити мій email"
+      or_paste_link: "Або ж ви можете скопіювати посилання в адресний рядок вашого браузера:"
+    common:
+      hey: "Привіт, %{name}!"
+      kassi_team: "Команда %{service_name}"
+      thanks: "Дякуємо,"
+      dont_want_to_receive_these_emails: "Не хочете отримувати ці листи?"
+      edit_your_email_settings_here: "Редагувати налаштування отримання листів"
+      message_not_displaying_correctly: "Лист відображається неправильно?"
+      view_it_in_your_browser: "Відкрити в браузері"
+      or: або
+      unsubscribe_from_these_emails_info: ~
+      unsubscribe_from_these_emails: "Відписатися від подібних повідомлень"
+      unsubscribe_from_invitation_emails_info: ~
+      unsubscribe_from_invitation_emails: ~
+    conversation_status_changed:
+      has_accepted_your_offer: "%{accepter} прийняв вашу пропозицію по запиту %{listing}"
+      has_accepted_your_request: "%{accepter} прийняв ваш запит за пропозицією %{listing}"
+      has_rejected_your_offer: "%{accepter} відхилив вашу пропозицію по запиту %{listing}"
+      has_rejected_your_request: "%{accepter} відхилив ваш запит за пропозицією %{listing}"
+      view_thread: "Перегляд діалогу"
+      your_offer_was_accepted: "Вашу пропозицію було прийнято"
+      your_offer_was_rejected: "Вашу пропозицію було відхилено"
+      your_request_was_accepted: "Ваш запит було прийнято"
+      your_request_was_rejected: "Ваш запит було відхилено"
+      you_can_now_pay_to: "Зараз ви можете оплатити необхідну суму %{payment_receiver}."
+      pay_now: "Оплатити зараз"
+      remember_to_confirm: "Коли запит успішно виконаний, не забудьте відмітити його як завершений. Якщо запит не виконаний у вас є %{days_to_automatic_confirmation} днів щоб скасувати його. Інакше ми автоматично відмітимо його як завершений."
+    invitation_to_kassi:
+      hi: Привіт!
+      you_have_been_invited_to_kassi: "%{inviter} запросив вас приєднатися до %{service_name}."
+      here_is_a_message_from: "Для вас є приватне повідомлення від %{inviter}:"
+      join_now: "Приєднуйтесь зараз!"
+      invitation_code: "Запрошувальний код: %{code}"
+    new_comment:
+      has_commented_your_listing_in_kassi: "%{author} залишив коментар на вашу публікацію %{listing}"
+      view_comment: "Переглянути коментар"
+      you_have_a_new_comment: "%{author} залишив коментар на ваш запит в %{service_name}"
+      listing_you_follow_has_a_new_comment: "%{author} прокоментував лістинг, за яким ви слідкуєте в %{service_name}"
+      has_commented_listing_you_follow_in_kassi: "%{author} прокоментував публікацію \"%{listing}\", за якою ви слідкуєте в %{service_name}."
+    new_message:
+      view_message: "Переглянути повідомлення"
+      has_sent_you_a_message_in_kassi: "%{sender} відправив вам повідомлення в %{service_name}"
+      you_have_a_new_message: "У вас нове повідомлення в %{service_name} від %{sender_name}"
+    new_payment:
+      new_payment: "Ви отримали новий платіж"
+      price_per_unit_type: "Ціна за %{unit_type}"
+      quantity: "Кількість:"
+      you_have_received_new_payment: "Вам оплатили <b>%{payment_sum}</b> за <b>%{listing_title}</b> від %{payer_full_name}. Ось ваша квитанція."
+      listing_per_unit_title: ~
+    payment_receipt_to_seller:
+      payment_gateway_fee: ~
+      shipping_total: ~
+      product: ~
+      price_payer_paid: ~
+      service_fee: ~
+      you_will_get: ~
+      new_payment: ~
+      price_per_unit_type: ~
+      quantity: ~
+      you_have_received_new_payment: ~
+      stripe:
+        you_have_received_new_payment: ~
+    payment_receipt_to_payer:
+      receipt_of_payment: ~
+      you_have_made_new_payment: ~
+      product: ~
+      price_per_unit_type: ~
+      duration: ~
+      quantity: ~
+      subtotal: ~
+      total: ~
+      price: ~
+      service_fee: ~
+      stripe_gateway_fee: ~
+      paypal_gateway_fee: ~
+      money_will_be_transferred: ~
+    paypal_new_payment:
+      paypal_gateway_fee: "комісія PayPal:"
+      shipping_total: "Доставка:"
+    braintree_new_payment:
+      product: "Продукт:"
+      price_payer_paid: "Сплачена %{payer_full_name} сума:"
+      service_fee: "Комісія сервісу %{service_name}:"
+      you_will_get: "Всього:"
+    receipt_to_payer:
+      receipt_of_payment: "квитанція про оплату"
+      you_have_made_new_payment: "Ви оплатили <b>%{payment_sum}</b> за <b>%{listing_title}</b> %{recipient_full_name}. Ось ваша квитанція."
+      product: Продукт
+      price_per_unit_type: "Ціна за %{unit_type}"
+      duration: "Тривалість:"
+      quantity: "Кількість:"
+      subtotal: "Сума:"
+      total: Всього
+      price: Ціна
+      service_fee: "Комісія сервісу"
+      stripe_gateway_fee: ~
+      paypal_gateway_fee: ~
+      money_will_be_transferred: "Кошти будуть переведені до %{recipient_name} коли а) ви відмітите цей запит завершеним або б) %{automatic_confirmation_days} днів пройде після вашої оплати."
+      listing_per_unit_title: ~
+      stripe:
+        you_have_made_new_payment: ~
+    new_testimonial:
+      has_given_you_feedback_in_kassi: "%{name} залишив відгук про вас в %{service_name}"
+      you_can_give_feedback_to: "Ви ще не створили відгук про %{name}"
+      view_feedback: "Переглянути відгуки"
+    new_update_to_listing:
+      listing_you_follow_has_been_updated: "Лістинг, за яким ви слідкуєте, був оновлений"
+      has_updated_listing_you_follow_in_kassi: "%{author} оновив публікацію \"%{listing}\", за якою ви слідкуєте в %{service_name}."
+      view_changes: "Перегляд змін"
+    community_updates:
+      added_offer: "%{name_link} додав(ла) публікацію:"
+      added_request: "%{name_link} додав(ла) публікацію:"
+      added_listing: "%{name_link}  додав(ла) публікацію:"
+      update_mail_title: "Оновлення %{title_link}"
+      title_link_text: "%{community_name}"
+      intro_paragraph: "Декілька новин %{community_link} за останні %{time_since_last_update}"
+      intro_paragraph_link_text: "%{community_name}"
+      reduce_email_footer_text: "Набридли ці листи? %{settings_link} або %{unsubscribe_link}."
+      settings_link_text: "Відредагуй налаштування отримання листів"
+      unsubscribe_link_text: отпишись
+    newsletter:
+      hi: "Привіт %{name},"
+      newest_offers: "Останні пропозиції"
+      newest_requests: "Останні запити"
+      text_version_text: "У вас є що-небудь, що може стане комусь в нагоді? А може вам буде необхідно те, що може бути у других? Залиште запит, пропозицію або просто погляньте на те, що пропонують і запитують інші — %{url}"
+    reset_password_instructions:
+      change_my_password: "Змінити пароль"
+      reset_password_instructions: "<p>Ви вказали, що забули свій пароль або ім'я користувача в %{service_name}.</p><p>Ваше ім'я користувача: %{username}</p><p>Якщо вам необхідно скинути ваш пароль, натисніть на наступне посилання: %{password_reset_link}</p><br><p>Якщо це були не ви, просто ігноруйте це повідомлення. Ваш пароль не зміниться доти, поки не перейдете за посиланням, зазначеним вище і не створите новий пароль.</p>"
+    testimonial_reminder:
+      remember_to_give_feedback_to: "Нагадування: не забудьте залишити відгук про %{name}"
+      you_have_not_given_feedback_yet: "Ви ще не залишили відгук про %{name} після події «%{event}». Не забудьте залишити відгук про те, як зарекомендував себе %{given_name} під час цієї події."
+    transaction_preauthorized:
+      subject: "%{requester} запросив і оплатив за %{listing_title}"
+      transaction_requested_by_user: "%{requester} запросив і оплатив за \"%{listing_title}\""
+      you_have_time_to_accept: "Вам необхідно прийняти або відхилити запит протягом %{payment_expires_in}. Якщо ви приймите запит протягом цього часу, оплата буде здійснена. Якщо ви відхилите, запит буде автоматично відхилено і оплата Вам здійснена не буде."
+      if_you_do_accept: "Якщо ви приймите запит в зазначені терміни, то на ваший рахунок відразу ж будуть нараховані кошти."
+      if_you_do_accept_stripe: ~
+      if_you_do_not_accept: "Якщо ви відхилите запит або не приймите його в зазначені терміни, платіж буде автоматично скасований, кошти з рахунку %{requester} не будуть списані, а ви не отримаєте оплату."
+      click_here_to_reply: "Натисніть тут щоб відповісти на запит"
+    transaction_preauthorized_reminder:
+      subject: "Не забудьте прийняти запит від %{requester} про публікації %{listing_title}"
+      remember_to_accept: "Не забудьте прийняти запит від %{requester} про нове розміщення \"%{listing_title}\". %{requester} вже оплатив. Ви повинні прийняти запит щоб отримати оплату."
+      one_day_left: "Якщо ви не приймите запит протягом одного дня запит буде автоматично скасований і оплата не буде здійснена."
+      click_here_to_reply: "Натисніть тут щоб відповісти на запит"
+    welcome_email:
+      welcome_email_subject: "Ласкаво просимо в %{service_name}"
+      welcome_to_marketplace: "Ласкаво просимо в %{service_name}! Раді бачити Вас з нами!"
+      love_marketplace_crew: "З повагою, команда <br /><i>%{service_name}</i>"
+      welcome_email_footer_text: "Які типи повідомлення ви бажаєте отримувати від %{service_name}? %{settings_link}"
+      settings_link_text: "Перевірте налаштування"
+    new_listing_by_followed_person:
+      subject: "%{author_name} розмістив нову публікацію в %{service_name}"
+      has_posted_a_new_listing: "%{author_name} розмістив нову публікацію:"
+      you_are_receiving_this_because: "Ви отримали це повідомлення так як ви підписані на %{author_name}."
+      view_listing: "Перегляд публікації"
+    new_member_notification:
+      new_member_has_joined: "Новий учасник приєднався до %{community}. Необхідно підтвердити його електронну адресу."
+      this_is_automatic_message: "Це автоматичне повідомлення, спрямоване адміністраторам %{community}."
+      person_name: "Ім'я:"
+      person_email: "Ел. пошта:"
+  error_messages:
+    booking:
+      booking_failed_payment_voided: "Бронирование не було здійснено через невідому помилку. Будь ласка, спробуйте ще раз пізніше. Списання коштів не було здійснено."
+      double_booking_payment_voided: "На жаль, обрані вами дати більше не доступні. Будь ласка, оберіть інші дати. Списання коштів не було здійснено."
+    onboarding:
+      server_rendering: "Керівництво для початківців не вдалося завантажити. Ми були проінформовані про помилку і намагаємося її вирішити."
+    listings:
+      departure_time: "Дата виїзду повинна бути в інтервалі від сьогоднішньої дати плюс один рік."
+      share_type: "Ви повинні обрати як мінімум один з пунктів."
+      valid_until: "Дата повинна бути в інтервалі від сьогоднішньої дати плюс 6 місяців"
+      price: "Ціна повинна бути цілим числом."
+      minimum_price: "Мінімальна ціна %{currency} %{minimum_price}"
+    testimonials:
+      you_must_explain_not_neutral_feedback: "Якщо ви бажаєте залишити відгук, відмінний від нейтрального, поясніть причину."
+      you_must_select_a_grade: "Не забувайте поділитися вашим досвідом, він був негативний або позитивний."
+    transaction_agreement:
+      required_error: "Вам необхідно прийняти угоду."
+    paypal:
+      transaction_cannot_complete: "Платіж не може бути завершений. Швидше за все, проблема пов'язана з помилкою банківської авторизації кредитної карти. Будь ласка, спробуйте здійснити покупку за допомогою іншого способу платежу."
+      buyer_cannot_pay_error: "PayPal відхилив платіж. Будь ласка, зв'яжіться з їх відділом обслуговування клієнтів для отримання додаткової інформації: %{customer_service_link}"
+      pending_review_error: "Платіж був представлений, але був позначений PayPal як «вимагає розгляду». Коли PayPal завершить перевірку, платіж буде автоматично авторизований."
+      seller_express_checkout_disabled: "PayPal Express Checkout була відключена для обліковго запису власника каталогу. Будь ласка, зв'яжіться з власником каталога і повідомте, що у нього проблема з обліковим записом і необхідно зв'язатися з службою підтримки клієнтів PayPal."
+      generic_error: "В процесі платежу сталася помилка. Ми не змогли завершити вашу PayPal оплату."
+      cancel_error: "В процесі відміни сталася помилка. Не змогли завершити відміну."
+      accept_authorization_error: "Під час предавторізаціі платежу Paypal сталася помилка. Будь ласка, спробуйте знову."
+      reject_authorization_error: "При спробі відхилити предавторізацію Paypal оплати сталася помилка. Повторіть помилку."
+    stripe:
+      generic_error: ~
+      accept_authorization_error: ~
+      reject_authorization_error: ~
+  error_pages:
+    back_to_kassi_front_page: "На головну сторінку"
+    error_404:
+      if_you_believe: "Якщо ви вважаєте, що адреса вірна і все має працювати, повідомте нам, використовуючи форму нижче, по якому адресу виникає помилка і що, як ви думаете, має бути тут насправді."
+      page_can_not_be_found: "Такої сторінки немає!"
+      page_you_requested_can_not_be_found: "Запитувана вами сторінка відсутня на сервері. Перевірте правильність адреси."
+    error_404_title: "сторінка не знайдена"
+    error_410:
+      page_removed: "Сторінка видалена"
+      page_you_requested_has_been_removed: "Запитувана Вами сторінка була видалена"
+      page_removed_reason: "На це є декілька причин. Наприклад, учасник міг видалити свій аккаунт або публікації могли бути видалені."
+    error_410_title: "сторінка видалена"
+    error_500:
+      temporary_unavailable: "Площадка тимчасово недоступна"
+      unable_to_process: "Сервіс не може обробити ваш запит прямо зараз. Будь ласка, спробуйте через деякий час знову."
+      we_hate_this: "Ми терпіти не можемо коли це відбувається! Ми вже сповіщені про ситуацію і виправляємо її."
+      refer_to_error_id: "Якщо ви бажаєте звернутися в нашу службу підтримки відносно цієї ситуації, будь ласка вкажіть даний номер ID \"%{error_id}\" у вашому повідомленні."
+    error_500_title: "помилка сервера"
+    error_description: "Опис помилки"
+    no_javascript:
+      javascript_is_disabled_in_your_browser: "У вашому браузері відключений Javascript"
+      kassi_does_not_currently_work_without_javascript: "На жаль, %{service_name} не зможе працювати при вимкненому javascript. Спробуйте ввімкнути підтримку javascript в своєму браузері і перезавантажити сторінку."
+      contact_us: "зв'яжіться з нами"
+      send_feedback: "Надіслати повідомлення"
+      your_feedback_to_admins: "Ваше повідомлення команді %{service_name}"
+    send: Надіслати
+    your_email_address: "Ваша адреса електронної пошти"
+  errors:
+    messages:
+      invalid_date: "Недійсна дата"
+      invalid_time: "Недійсний час"
+      invalid_datetime: "Недійсна змінна"
+      is_at: "Має бути в %{restriction}"
+      before: "Має бути до %{restriction}"
+      on_or_before: "Має бути в або до %{restriction}"
+      after: "Має бути після %{restriction}"
+      on_or_after: "Має бути в або після %{restriction}"
+      positive_number: "Вкажіть цифру"
+  event_feed_events:
+    accept:
+      has_accepted_lend_item: "%{offerer_name} погодився дати %{listing_title} %{requester_name} %{time_ago}."
+      has_accepted_borrow_item: "%{offerer_name} погодився дати %{listing_title} %{requester_name} %{time_ago}."
+      has_accepted_rent_out_item: "%{offerer_name} погодився дати %{listing_title} %{requester_name} %{time_ago}."
+      has_accepted_rent_item: "%{offerer_name} погодився дати %{listing_title} %{requester_name} %{time_ago}."
+      has_accepted_give_away_item: "%{offerer_name} погодився віддати %{listing_title} %{time_ago} %{requester_name}."
+      has_accepted_receive_item: "%{offerer_name} погодився віддати %{listing_title} %{time_ago} %{requester_name}."
+      has_accepted_sell_item: "%{offerer_name} погодився продати %{listing_title} %{time_ago} покупцеві %{requester_name}."
+      has_accepted_buy_item: "%{offerer_name} погодився продати %{listing_title} %{time_ago} покупцеві %{requester_name}."
+      has_accepted_trade_item: "%{offerer_name} погодився обмінятися %{listing_title} з %{requester_name} %{time_ago}."
+      has_accepted_sell_housing: "%{offerer_name} погодився продати %{listing_title} %{time_ago} покупцеві %{requester_name}."
+      has_accepted_buy_housing: "%{offerer_name} погодився продати %{listing_title} %{time_ago} покупцеві %{requester_name}."
+      has_accepted_rent_out_housing: "%{offerer_name} погодився здати %{listing_title} %{requester_name} %{time_ago}."
+      has_accepted_rent_housing: "%{offerer_name} погодився здати %{listing_title} %{requester_name} %{time_ago}."
+      has_accepted_favor: "%{offerer_name} погодився запропонувати %{listing_title} %{requester_name} %{time_ago}."
+      has_accepted_rideshare: "%{offerer_name} погодився на спільну поїздку %{listing_title} з %{requester_name} %{time_ago}."
+    join:
+      joined_kassi: "%{name} приєднався до %{service_name} %{time_ago}"
+    login:
+      logged_in_to_kassi: "%{name} зайшов в %{service_name} %{time_ago}."
+    comment:
+      commented: "%{commenter_name} прокоментував %{listing_title} %{time_ago}."
+      offer_partitive: пропозиція
+      request_partitive: запросив
+  header:
+    about: "Про проект"
+    home: Головна
+    members: Спільнота
+    new_listing: "Нова публікація"
+    mobile_version: "Мобільна версія"
+    offers: Пропозиції
+    requests: Запити
+    search_kassi: "Пошук в %{service_name}"
+    create_new_marketplace: "Cтворити новий проект"
+    contact_us: "Зв'язатися з нами"
+    profile: Профіль
+    manage_listings: "Управління публікаціями"
+    invite: "Запросити нових учасників"
+    login: Увійти
+    signup: Зареєструватися
+    menu: Меню
+  homepage:
+    additional_private_listings_slate:
+      additionally_one_private_offer_exists: "Крім того, є <b>одна друга пропозиція</b>,"
+      additionally_one_private_request_exists: "Крім того, є <b>один інший запит</b>,"
+      additionally_some_private_offers_exist: "Крім того, є <b>%{number_of_listings} других пропозицій</b>,"
+      additionally_some_private_requests_exist: "Крім того, є <b>%{number_of_listings} других запитів</b>,"
+    blank_slate:
+      add_first: Додайте!
+      but_that_is_visible_only_to_registered_members: "але він відобржається тільки для зареєстрованих користувачів."
+      but_those_are_visible_only_to_registered_members: "але вони видимі тільки для зареєстрованих користувачів."
+      create_new_account_for_yourself: "Створіть новий обліковий запис"
+      examples_of_what_you_could_offer_to_others: "Що ви можете запропонувати іншим"
+      examples_of_what_you_could_request_to_others: "Що ви можете отримати від інших"
+      favor_offer_list: "обслуговування комп'ютерів, ремонт одягу, випічка, ремонт велосипедів"
+      favor_request_list: "доглядальниця для дитини, уроки гри на фортепіано, вигулювання собаки, стрижка газонів"
+      favors_to_offer: "Допомога: "
+      favors_to_request: "Допомога: "
+      item_offer_list: "речі, спорт інвентар, костюми, все для пікніка"
+      item_request_list: "речі, спорт інвентар, костюми, все для пікніка"
+      items_to_offer: "Матеріальне: "
+      items_to_request: "Матеріальне: "
+      log_in: увійти!
+      no_offers_visible_unless_logged_in: "Немає пропозицій речей, послуг або поїздок, видимих незареєстрованим користувачам."
+      no_open_offers_currently: "Немає відкритих пропозицій речей, послуг або поїздок."
+      no_open_requests_currently: "Немає відкритих запитів речей, послуг або поїздок."
+      no_requests_visible_unless_logged_in: "Немає запитів речей, послуг або поїздок, видимих незареєстрованим користувачам."
+      one_private_offer_exists: "Уже є <b>одна пропозиція</b>,"
+      one_private_request_exists: "Уже є <b>один запит</b>,"
+      ride_offer: "Підвезіть кого-небудь, якщо вам по дорозі"
+      ride_request: "Поїздка на роботу"
+      some_private_offers_exist: "Уже є <b>%{number_of_listings} пропозицій</b>,"
+      some_private_requests_exist: "Уже є <b>%{number_of_listings} запитів</b>,"
+    custom_filters:
+      update_view: Оновити
+      min: "Мін:"
+      max: "Макс:"
+    event_feed:
+      latest_events: "Останні дії"
+    grid_item:
+      processing_uploaded_image: "(Зображення в обробці...)"
+    index:
+      no_listings_with_your_search_criteria: "Ми не змогли знайти результат що збігається з пошуковим запитом."
+      no_listings_notification: "Немає публікацій. %{add_listing_link}"
+      add_listing_link_text: "Додати нову публікацію"
+      open_listing: "відкрите оголошення"
+      open_listings: "відкриті оголошення"
+      private_listing_notification_log_in: Увійти
+      is: є
+      are: є
+      what_do_you_need: "Що б ви хотіли знайти?"
+      post_new_listing: "Cтворити оголошення"
+      are_offering: "що пропонують"
+      add_news_item: "Додати статтю"
+      lend_rent_help_carpool: "Прокат, обмін, допомога, спільні поїздки"
+      loading_more_content: "Завантажити більше"
+      more_events: Більше...
+      news: Новини
+      no_news: "Новин немає"
+      more_news: "Більше новин"
+      or: або
+      or_see_what_the_others: "...або подивіться,"
+      recent_events: "Недавні події"
+      requesting: "запитують інші"
+      tell_it_here: "Розкажіть про це тут!"
+      welcome_to_new_kassi: "Ласкаво просимо в новий %{service_name}!"
+      no_reviews: "Немає відгуків"
+      no_image: "немає зображення"
+      filter: Фільтр
+      this_is_private_community: "Вам необхідно увійти щоб побачити контент."
+    invitation_form:
+      email: "Адрес(а) електронної пошти"
+      message: "Приватне повідомлення:"
+      send_invitation: "Надіслати запрошення"
+      add_email_addresses_description: "Введіть в поле адреса електронної пошти своїх друзів. Якщо ви хочете запросити декількох друзів, розділіть їх адреси електронної пошти за допомогою коми."
+      add_lots_of_email_addresses: ~
+      this_article_link: "ця стаття"
+      invitation_emails_field_placeholder: "friend1@example.com, friend2@example.com, ..."
+      invitation_message_field_placeholder: "Я приєднався до цього чудового проекту. Тобі також необхідно!"
+      errors_in_emails: "Перевірте правильність адрес електронної пошти, розділених комою."
+    list_item:
+      review: Перевірка
+      reviews: Відгуки
+      distance_away: "Відстань %{distance} %{distance_unit}"
+    news_item:
+      show_less: Менше
+      show_more: Більше
+    profile_info_empty_notification:
+      add_your_info: "Додайте контактну інформацію"
+      add_a_profile_picture: "Додайте зображення профілю"
+      you_have_not_added_your_info: "Ви не додали контактну інформацію. Радимо зробити це для того, щоб інші користувачі могли легко вийти з вами на контакт."
+      add_your_info_link: "Додайте інформацію про себе"
+    recent_listing:
+      please_offer: Запропонувати
+      comment: коментар
+      comments: коментаря
+    filters:
+      show: "Фільтр:"
+      search: Пошук
+      map: "Показати карту"
+      list: "Показати список"
+      map_button: Карта
+      grid_button: Сітка
+      list_button: Список
+      all_listing_types: "Всі типи публікацій"
+      all_categories: "Всі категорії"
+    errors:
+      search_engine_not_responding: "Пошук тимчасово недоступний. Спробуйте повторити операцію пізніше."
+  infos:
+    about:
+      default_about_text_title: "Що такое Sharetribe?"
+      default_about_text: "Цей маркетплейс створено на платформі Sharetribe. З Sharetribe ви можете легко cтворити ваш власний маркетплейс. Це безкоштовно і займе декілька хвилин. %{click_here_link} щоб дізнатися більше!"
+      click_here_link_text: "Натисніть тут"
+    how_to_use:
+      default_title: "Як це працює"
+      default_content: "Тут ви можете інформацію про %{marketplace_name}."
+  landing_page:
+    hero:
+      search: Пошук
+      signup: Реєстрація
+      search_placeholder: "Що ви шукаєте?"
+      search_location_placeholder: Місцезнаходження
+    listings:
+      no_listing_image: "Немає зображення"
+  layouts:
+    admin:
+      admin: "Адміністрування %{service_name}"
+    branding:
+      powered_by: "%{service_name} надається за допомогою маркетплейс-платформи %{sharetribe_link}."
+      create_own: "Хотіли б cтворити свій власний маркетплейс як %{service_name}? Дізнайся більше %{learn_more}."
+      learn_more: "Дізнатися більше"
+    no_tribe:
+      inbox: Вхідні
+      settings: Налаштування
+      feedback: "Зв'язатися з командой %{service_name}"
+    application:
+      join_this_community: "Приєднатися до проекту"
+      read_more: Детальніше
+      feedback: "Ваше повідомлення команді %{service_name}"
+      dont_use_to_contact_support: ~
+      feedback_forum: форум
+      feedback_handle: "Написати відгук"
+      give_feedback: "Напиши нам"
+      or_check_our: "...або зайдіть на наш"
+      send_feedback_to_admin: "Надіслати повідомлення"
+      to_see_what_others_have_suggested: "щоб побачити, що пропонують інші користувачі і проголосовать за нові ідеї для проекту."
+      your_email_address: "Ваш адрес email (для зв'язку з Вами)"
+      connect: Реєстрація
+      invite_your_friends: "Запрошуйте друзів!"
+      invite_your_neighbors: "Запросіть друзів!"
+      invite_your_friends_description: "Чим більше людей в %{service_name}, тим воно більш корисне і продуктивне."
+      invite_your_friends_invite_only_description: "Користувачі не можуть приєднатися до %{service_name} без запрошення."
+      join_without_facebook: "… або %{join_without_facebook_link}"
+      join_without_facebook_link: "зареєструватися без Facebook"
+    conversations:
+      messages: Повідомлення
+      notifications: Сповіщення
+      received: Отримані
+      sent: Відправлені
+    global-header:
+      select_language: "Обрати мову"
+    infos:
+      about: "Про проект"
+      how_to_use: "Як це працює?"
+      info_about_kassi: "Інформація про %{service_name}"
+      news: Новини
+      register_details: Конфіденційність
+      terms: Умови
+    logged_in:
+      admin: Адміністрування
+      go_to_your_profile_page: Профіль
+      hi: Привіт
+      login: Увійти
+      logout: Вийти
+      notifications: Сповіщення
+      requests: "Запити друзів"
+      settings: Налаштування
+      sign_up: Зареєструватися
+    logged_in_messages_icon:
+      messages: Повідомлення
+    logged_in_notifications_icon:
+      notifications: Сповіщення
+    mobile_logged_in:
+      admin: Адміністрування
+      go_to_your_profile_page: Профіль
+      hi: "Привіт, "
+      login: Увійти
+      logout: Вийти
+      notifications: Сповіщення
+      requests: "Запити друзів"
+      settings: Налаштування
+      sign_up: Реєстрація
+    notifications:
+      listing_could_not_be_saved: "Оголошення не збережено. Спробуйте ще раз. Якщо проблема повториться, будь ласка %{contact_admin_link}."
+      contact_admin_link_text: "зв'яжіться з адміністратором"
+      test_welcome_email_delivered_to: "Тестове повідомлення було відправлено %{email}"
+      something_went_wrong: "Щось пішло не так"
+      community_updated: "Інформація оновлена."
+      community_update_failed: "Не вдалося оновити інформацію."
+      account_creation_succesful_you_still_need_to_confirm_your_email: "Обліковий запис створено успішно. Тепер вам необхідно підтвердити свій адрес електронної пошти."
+      community_joined_succesfully_you_still_need_to_confirm_your_email: "Тепер ви є участником %{service_name}. Далі вам необхідно підтвердити свій адрес електронної пошти."
+      comment_cannot_be_empty: "Коментар не може бути порожнім"
+      comment_sent: "Коментар відправлений"
+      confirmation_link_is_wrong_or_used: "Посилання для підтердження вже було використане або неправильне. Спробуйте увійти в систему, або надішліть відгук, якщо проблема повторюється."
+      additional_email_confirmed: "Адрес електронної пошти, зазначений вами тепер підтверджений."
+      could_not_get_email_from_facebook: "Не змогли отримати email адрес від Facebook і не можемо cтворити аккаунт без email."
+      facebook_email_unconfirmed: ~
+      create_new_listing: "Cтворити іншу публікацію"
+      create_one_here: "cтворити її"
+      email_confirmation_sent_to_new_address: "Лист з посиланням підтердження відправлено на новий адрес."
+      email_not_found: "Введений вами адрес електронної пошти не міститься в базі даних %{service_name}."
+      error_with_session: "Помилка сесії."
+      feedback_considered_spam: "Відгук не збережений через невірний формат. Спробуйте знову або скористайтеся форумом."
+      feedback_not_saved: "Відгук не може бути відправлений."
+      feedback_saved: "Дякуємо за ваше повідомлення! Ми зв'яжемося з вами при першій можливості."
+      feedback_sent_to: "Відгук відправлений %{target_person}"
+      feedback_skipped: "Відгук скасований"
+      invitation_cannot_be_sent: "Запрошення не може бути відправлено"
+      invitation_cannot_unsubscribe: ~
+      invitation_limit_reached: "Ви намагаєтеся надіслати занадто багато запрошень. Досягнуто максимальної кількості запрошень, які можна надіслати за добу."
+      invitation_sent: "Запрошення успішно відправлено"
+      invitation_successfully_unsubscribed: ~
+      inviting_new_users_is_not_allowed_in_this_community: "Запрошувати нових користувачів не дозволено"
+      login_again: "Спробуйте увійти ще раз."
+      login_failed: "Не вдалося увійти. Перевірте правильність введених даних."
+      account_creation_successful: "Ласкаво просимо в %{service_name}, %{person_name}!"
+      account_deleted: "Ваш обліковий запис був видалений."
+      login_successful: "Ласкаво просимо, %{person_name}!"
+      logout_successful: "Ви тільки що вийшли з %{service_name}. Заходьте ще!"
+      news_item_created: "Стаття створена"
+      news_item_creation_failed: "Помилка при створенні статті"
+      news_item_update_failed: "Помилка при оновленні статті"
+      news_item_updated: "Стаття оновлена"
+      news_item_deleted: "Стаття видалена"
+      offer_accepted: "Пропозицію підтверджено"
+      offer_confirmed: "Пропозицію підтверджено"
+      offer_closed: "Пропозицію закрито"
+      listing_created_successfully: "Публікація створена успішно: %{new_listing_link}"
+      offer_rejected: "Пропозицію відхилено"
+      offer_canceled: "Пропозицію скасовано"
+      listing_updated_successfully: "Публікація оновлена успішно"
+      listing_updated_availability_management_enabled: "Каталог успішно оновлений. Управління доступністю увімкнено."
+      listing_updated_availability_management_disabled: "Каталог успішно оновлений. Управління доступністю відключено."
+      only_kassi_administrators_can_access_this_area: "Тільки адміністратори %{service_name} мають доступ до цього розділу"
+      only_listing_author_can_close_a_listing: "Лістинг може закрити тільки автор"
+      only_listing_author_can_edit_a_listing: "Лістинг може Редагувати тільки автор"
+      payment_successful: "Оплата виконана успішно"
+      payment_canceled: "Платіж скасований"
+      error_in_payment: "Помилка оплати. Якщо ви ще не завершили операцію оплати, спробуйте знову. Якщо ви завершили, будь ласка зв'яжіться з нами."
+      cannot_receive_payment: "Інша сторона не може отримати платіж через помилку що сталася. Будь ласка зв'яжіться з адміністрацією, щоб прояснити ситуацію."
+      payment_waiting_for_later_accomplishment: "Коли ви оплатите, ми повідомимо продавця і ви отримаєте квитанцію про оплату по email."
+      password_recovery_sent: "Інструкції по зміні пароля відправлені на вашу поштову скриньку."
+      person_activated: "Користувач активований"
+      person_deactivated: "Користувач відключений"
+      person_updated_successfully: "Інформація оновлена"
+      poll_answered: "Голос залишений"
+      poll_could_not_be_answered: "Не можна відповісти на опитування"
+      poll_created: "Опитування створено"
+      poll_creation_failed: "Помилка при створенні опитування"
+      poll_update_failed: "Помилка при оновленні опитування"
+      poll_updated: "Опитування оновлено"
+      poll_deleted: "Опитування видалено"
+      read_more: "Дізнатися більше!"
+      registration_considered_spam: "Реєстрація не працює, будь ласка надсилайте відгуки з вікна лівої частини, в листі згадайте «email2 error»."
+      reply_cannot_be_empty: "Не можна надіслати порожнє повідомлення"
+      reply_sent: "Відгук успішно відправлений"
+      request_accepted: "Запит підтверджений"
+      request_confirmed: "Запит виконаний"
+      request_rejected: "Запит відхилено"
+      request_canceled: "Запит скасований"
+      message_sent: "Повідомлення відправлено"
+      message_not_sent: "Помилка відправки повідомлення. Повторіть спробу."
+      this_content_is_not_available_in_this_community: "Ця інформація недоступна."
+      unknown_error: "Невідома помилка. Використовуйте посилання відгуку для відправки деталей про те, як це відбулося."
+      update_error: "Сталася помилка при збереженні даних. Спробуйте знову."
+      you_are_not_allowed_to_give_feedback_on_this_transaction: "Для того, щоб залишити відгук про цю подію, потрібно авторизація"
+      you_are_not_authorized_to_do_this: "У вас не вистачає прав для цієї дії"
+      you_are_not_authorized_to_view_this_content: "У вас не вистачає прав для перегляду цієї інформації"
+      listing_closed: "Оголошення закрито"
+      send_instructions: "Протягом декількох хвилин ви отримаєте лист з інструкціями по відновленню вашого пароля."
+      you_cannot_reply_to_a_closed_offer: "Ви не можете відповісти на закриту пропозицію"
+      you_cannot_send_message_to_yourself: "Ви не можете надіслати повідомлення самому собі"
+      you_followed_listing: "Ви слідкуєте за цим лістингом"
+      you_have_already_given_feedback_about_this_event: "Ви вже залишали відгук про цю подію"
+      you_are_now_member: "Ласкаво просимо в %{service_name}!"
+      you_are_already_member: "Ви вже є участником %{service_name}. З поверненням!"
+      you_must_log_in_to_create_new_listing: "Ви повинні авторизуватись в %{service_name} для створення нової публікації. Якщо у вас немає облікового запису, ви можете %{sign_up_link}."
+      additional_email_confirmed_dashboard: "Ваш адрес електронної пошти підтверджений."
+      you_must_log_in_to_give_feedback: "Ви повинні увійти, щоб надіслати відгук"
+      you_must_log_in_to_invite_new_users: "Для того, щоб запросити нових користувачів, ви повинні увійти в %{service_name}"
+      you_must_log_in_to_send_a_comment: "Ви повинні увійти, щоб залишити новий коментар"
+      you_must_log_in_to_send_a_message: "Для того, щоб надіслати повідомлення користувачеві, ви повинні авторизуватись в %{service_name}"
+      you_must_log_in_to_do_a_transaction: ~
+      you_must_log_in_to_view_this_content: "Для перегляду вмісту потрібна авторизація"
+      you_must_log_in_to_view_this_page: "Вам необхідно увійти в систему для перегляду цієї сторінки"
+      you_must_log_in_to_view_your_inbox: "Для того, щоб переглянути вхідні повідомлення, ви повинні зайти в %{service_name}."
+      you_must_log_in_to_view_your_settings: "Для перегляду налаштувань потрібна авторизація в %{service_name}"
+      you_must_log_in_to_add_news_item: "Ви повинні авторизуватись в %{service_name}, щоб додати нову статтю."
+      you_must_log_in_to_change_profile_settings: "Ви зобов'язані увійти в %{service_name} щоб змінити налаштування"
+      you_must_log_in_to_accept_or_reject: "Ви зобов'язані увійти щоб прийняти або відхилити транзакцію"
+      you_must_log_in_to_confirm_or_cancel: "Ви зобов'язані увійти щоб скасувати або підтвердити транзакцію"
+      you_need_to_confirm_your_account_first: "Ви повинні підтвердити свій обліковий запис."
+      you_must_fill_all_the_fields: "Ви повинні заповнити всі поля"
+      you_unfollowed_listing: "Ви більше не слідкуєте за цим лістингом"
+      joining_community_failed: "Помилка при вступі до спільноти"
+      can_not_delete_email: "Ви не можете видалити email адрес"
+      user_does_not_have_email_to_delete: "У вас немає email адреса який ви намагаєтеся видалити"
+      email_deleted: "E-mail видалений"
+      listing_author_payment_details_missing: "Автор публікації не додав деталі оплати, тому вони не отримають оплату прямо зараз. Будь ласка зв'яжіться з автором."
+      images_are_processing: "Ми обробляємо ваші зображення. Зачекайте декілька хвилин, і вони будуть завантажені на сайт."
+      maintenance_mode:
+        zero: "Сайт буде недоступний по причині проведення профілактичних робіт"
+        one: "Сайт буде недоступний через %{count} хвилину по причині проведення профілактичних робіт"
+        few: "Сайт буде недоступний через %{count} хвилин по причині проведення профілактичних робіт"
+        many: "Сайт буде недоступний через %{count} хвилин по причині проведення профілактичних робіт"
+        other: "Сайт буде недоступний через %{count} хвилин по причині проведення профілактичних робіт"
+      automatically_logged_out_please_sign_in: "Ви автоматично вийшли з системи. Будь ласка, увійдіть знову."
+      stripe_you_account_balance_is_not_0: ~
+    settings:
+      account: "Обліковий запис"
+      notifications: Сповіщення
+      profile: "Інформація про вас"
+      settings: Налаштування
+      paypal_payments: ~
+      stripe_payments: ~
+      payments: Платежі
+  listings:
+    bubble_listing_not_visible:
+      listing_not_visible: "У вас немає прав для перегляду цієї записи."
+    comment:
+      wrote: написав
+      send_private_message: "Надіслати приватне повідомлення для %{person}"
+      delete: видалити
+      are_you_sure: "Видалити коментар?"
+    comment_form:
+      ask_a_question: "Залиште коментар або запитайте більш детальну інформацію. Ваш коментар зможуть побачити всі інші користувачі."
+      log_in: увійти
+      send_comment: Надіслати
+      to_send_a_comment: "для відправки коментаря."
+      write_comment: "Новий коментар:"
+      you_cannot_send_a_new_comment_because_listing_is_closed: "Ви не можете залишити нові коментарі так як дана публікація закрита."
+      you_must: "Ви повинні"
+      subscribe_to_comments: "Повідомляти мені про нові коментарі та оновлення"
+    edit:
+      edit_listing: "Редагувати публікацію"
+    edit_links:
+      close_listing: "Закрити публікацію"
+      edit_listing: "Редагувати публікацію"
+      reopen_listing: "Повторно відкрити публікацію"
+      move_to_top: "Перемістити на головну сторінку"
+      show_in_updates_email: "Показати в наступній розсилці"
+      show_in_updates_email_loading: завантаження...
+      show_in_updates_email_error: "Не вдалося встановити зв'язок з сервером. Спробуйте ще раз після перезавантаження сторінки."
+      show_in_updates_email_success: "Ця публікація буде показана в наступній автоматичній розсилці відправленої участникам"
+    map:
+      open_in_google_maps: "Відкрити карту Google"
+    error:
+      something_went_wrong: "Щось пішло не так, код помилки: %{error_code}"
+      something_went_wrong_plain: "Щось пішло не так"
+      create_failed_to_connect_to_booking_service: "Не вдалося cтворити каталог: помилка підключення до сервісу бронювання. Будь ласка, спробуйте ще раз."
+      update_failed_to_connect_to_booking_service: "Не вдалося оновити каталог: помилка підключення до сервісу бронювання. Будь ласка, спробуйте ще раз."
+    follow_links:
+      follow: "Отримувати листи про нові коментарії"
+      unfollow: "Не отримувати листи про нові коментарії"
+    form:
+      custom_field_partials:
+        dropdown:
+          select_one___: Оберіть...
+      departure_time:
+        at: В
+        departure_time: "Час виїзду"
+      departure_time_radio_buttons:
+        repeated: "Пповторювана подія (додайте час і дати в поле «детальний опис»)"
+      description:
+        detailed_description: "Детальний опис"
+        youtube_info: "Якщо ваша публікація містить посилання на YouTube, відео буде показано нижче публікації."
+      destination:
+        destination: "Пункт призначення"
+      form_content:
+        favor: Послугу
+        housing: проживання
+        item: Річ
+        offer_something: Запропонувати
+        request_something: Запросити
+        rideshare: Поїздку
+        i_want_to_offer: "Я хочу запропонувати..."
+        i_want_to_request: "Мені необхідно..."
+      googlemap:
+        googlemap_copy: "Кінцеві точки по карті"
+        googlemap_description: Карта
+        googlemap_updatemap: "Оновити карту"
+      images:
+        image: Зображення
+        best_result: "Для кращих результатів використовуйте JPG, GIF або PNG зображення, розміру %{width} на %{height} пікселів."
+        no_file_selected: "Файл не обраний"
+        remove_image: "Видалити зображення"
+        select_file: "Вибрати файл"
+        add_more: "Додати ще картинок\n"
+        removing: Видалення...
+        processing: Обробка...
+        loading_image: Завантаження...
+        image_uploading_in_progress: "Завантаження зображення..."
+        processing_takes_a_while: "Всі зображення завантажені! Обробка може зайняти деякий час. Ви можете зберегти оголошення і продовжити роботу."
+        this_may_take_a_while: "(можливо необхідно зачекати)"
+        percentage_loaded: "%{percentage}%"
+        uploading_failed: "Помилка завантаження зображення"
+        image_processing_failed: "Помилка обробки зображення"
+        file_too_large: "Файл занадто великий"
+        accepted_formats: "Файли зображень повинні бути в формате GIF, JPG або PNG."
+        images_not_uploaded_confirm: "Зображення не були завантажені. Бажаєте продовжити?"
+      location:
+        location: Місцезнаходження
+      price:
+        price: Ціна
+        per: за
+        per_day: "в день"
+        mass: "шт, кг, л, м2, ..."
+        time: "година, день, місяць, ..."
+        long_time: "неділя, місяць, ..."
+        after_service_fee_you_will_get: "Після комісії %{service_name} і системи оплати ви отримаєте %{sum_with_currency}"
+        no_service_fee_you_will_get_paypal_text: "%{paypal_fee_info_link} буде утримано від вартості."
+        no_service_fee_you_will_get_payment_text: ~
+        after_service_fee_you_will_get_payment_text: ~
+        payment_fee_info_link_text: ~
+        delivery: "Спосіб доставки"
+        shipping: Доставка
+        shipping_price: "Вартість доставки"
+        shipping_price_additional: Додатково
+        pickup: "Самостійне отримання"
+      origin:
+        location: Місцезнаходження
+        origin: "Початковий пункт"
+      send_button:
+        save_listing: "Зберегти публікацію"
+      share_type:
+        select: Обрати
+        borrow: "Тимчасово"
+        buy: Куплю
+        give_away: Віддам
+        lend: "Дам на час"
+        offer_type: "Тип пропозиції"
+        receive: "Прийму в дар"
+        rent: Оренда
+        rent_out: Оренда
+        request_type: "Тип запиту"
+        sell: Продам
+        share_for_free: "Безкоштовно поділюсь"
+        accept_for_free: "Прийму в якості подарунку"
+        trade: Обмін
+      tag_list:
+        comma_separate: "(розділені комами)"
+        tags: Мітки
+      title:
+        listing_title: "Заголовок оголошення"
+      valid_until:
+        valid_until: "Дата закінчення"
+      valid_until_radio_buttons:
+        for_the_time_being: Невизначена
+      privacy:
+        privacy: Конфіденційність
+        private: "Приватно (тільки для авторизованих користувачів)"
+        public: "Публічно (видимі всім користувачам)"
+    help_texts:
+      help_share_type_title: "Тип пропозиції або запиту"
+      help_tags_title: Мітки
+      help_valid_until_title: "Дата закінчення"
+    index:
+      all_categories: "Всі категорії"
+      all_offer_types: "Всі типи пропозицій"
+      all_request_types: "Всі типи запитів"
+      category: Категорія
+      did_not_found_what_you_were_looking_for: "Не знайшли те, що шукали?"
+      favors: Послуги
+      housing: Проживання
+      items: Речі
+      list_view: "У вигляді списка"
+      listings: Лістинги
+      map_view: "У вигляді карти"
+      offer_something: "Нехай всі дізнаються про це!"
+      offer_type: "Тип пропозиції"
+      offers: Пропозиції
+      request_something: "Створіть запит!"
+      request_type: "Тип запиту"
+      requests: Запити
+      rideshare: Поїздки
+      you_have_something_others_do_not: "Можете запропонувати іншим що-небудь?"
+      feed_title: "%{listing_type} в %{service_name} %{optional_category}"
+    left_panel_link:
+      borrows: "На час"
+      buys: Купівля
+      favors: Послуги
+      give_aways: "Віддам безкоштовно"
+      housings: Проживання
+      items: Речі
+      lends: "на час"
+      receives: "Прийняти в дар"
+      rent_outs: Оренда
+      rents: Оренда
+      rideshares: Поїздки
+      sells: Продаж
+      share_for_frees: "Безкоштовно поділюсь"
+      accept_for_frees: "Прийму в якості подарунку"
+      trades: Обмін
+    listing_actions:
+      booking_from: Від
+      booking_to: До
+      how_paypal_works: "Як функціонує PayPal"
+      payment_help: "Інформація про платежі"
+      unable_load_availability: "Не вдалося завантажити інформацію про доступність. Будь ласка, спробуйте ще раз."
+      booking_date: ~
+      select_one: ~
+      start_time: ~
+      end_time: ~
+    new:
+      listing: список
+      selected_category: "Категорія: %{category}"
+      selected_subcategory: "Підкатегорія: %{subcategory}"
+      selected_transaction_type: "Тип публікації: %{transaction_type}"
+      select_category: "Оберіть категорію"
+      select_subcategory: "Оберіть підкатегорію"
+      select_transaction_type: "Оберіть тип публікації"
+      you_need_to_fill_payout_details_before_accepting: "Вам необхідно заповнити деталі оплати до того як ви створите публікацію. Перейдіть в %{payment_settings_link} щоб заповнити деталі."
+      contact_admin_link_text: "зв'яжіться з адміністратором"
+      community_not_configured_for_payments: "Сайт %{service_name} не був налаштований для платежів, тому ви поки не можете розміщувати нові оголошення. Будь ласка, %{contact_admin_link} для уточнення деталей."
+      payment_settings_link: "налаштування оплати"
+      community_not_configured_for_payments_admin: "%{service_name} не був налаштований для прийняття платежів, тому ви не можете розміщувати нові публікації зараз. Перейдіть на %{payment_settings_link} щоб налаштувати платіжні реквізити."
+    quantity:
+      hour: "Кількість годин:"
+      day: "Кількість днів:"
+      night: "Кількість тижнів:"
+      week: "Кількість тижнів:"
+      month: "Кількість місяців:"
+      custom: "Кількість:"
+    quantity_placeholder: Кількість
+    please_comment: Коментар
+    reply_link:
+      listing_closed: "Публікація закрита"
+    show:
+      add_your_phone_number: "Додати свій номер телефону"
+      add_profile_picture: "Додати зображення профілю"
+      comments: Коментарі
+      contact_by_phone: "Телефон:"
+      contact: Зв'язатися
+      favor_offer: "Пропозиція послуги"
+      favor_request: "Запит послуги"
+      inquiry: Запит
+      item_offer_trade: "Пропозиція обміну"
+      item_request_trade: "Запит обміну"
+      no_description: "Ця публікація не містить опису"
+      no_image: "Немає зображення"
+      no_reviews: "Отриманних відгуків немає"
+      offer: Пропозиція
+      listing_created: Створено
+      open_until: "Дійсно до %{date}"
+      feedback: Відгуки
+      qr_code: QR-код
+      request: Запит
+      rideshare_offer: "Пропозиція поїздки"
+      rideshare_request: "Запит на поїздку"
+      send_private_message: "Надіслати приватне повідомлення"
+      tags: Мітки
+      time: раз
+      times: раз(а)
+      times_viewed: Переглянуто
+      processing_uploaded_image: "(Зображення в обробці...)"
+      listing_created_at: "Публікація створена"
+      price:
+        per_quantity_unit: "за %{quantity_unit}"
+        per_day: "в день"
+      delivery: "Спосіб доставки"
+      shipping: "Доставка (+%{price})"
+      shipping_no_price: Доставка
+      shipping_price_additional: "Доставка (+%{price}, додатково: +%{shipping_price_additional}"
+      pickup: "Самостійне отримання"
+      pickup_no_price: "Самостійне отримання"
+      youtube_video_player: "Відеопрогравач YouTube"
+    unit_types:
+      piece: шт.
+      hour: година
+      day: день
+      night: ніч
+      week: неділя
+      month: місяць
+    verification_required:
+      verification_required: "Потрібно підтвердження"
+  listing_conversations:
+    preauthorize:
+      dates_not_available: "Задані дати не доступні"
+      error_in_checking_availability: ~
+      details: Деталі
+      by: "%{listing} від %{author}"
+      payment: Оплата
+      exp: "Exp:"
+      you_will_be_charged: "Сума буде списана тільки якщо %{author} прийме транзакцію. %{author} повинен прийняти транзакцію протягом %{expiration_period} днів. Якщо %{author} скасує транзакцію або не відповість, списання не відбудеться."
+      day: день
+      days: днів
+      night: ніч
+      nights: добу
+      invalid_parameters: "Невірні значення для нової угоди"
+    transaction_agreement_checkbox:
+      read_more: Вид.
+    stripe_payment:
+      payment: ~
+      pay_with_card: ~
+      address: ~
+      address_country: ~
+      address_name: ~
+      address_city: ~
+      address_state: ~
+      address_street1: ~
+      address_street2: ~
+      address_postal_code: ~
+  mapview:
+    index:
+      all_categories: "Всі категорії"
+      all_offer_types: "Всі типи пропозицій"
+      all_request_types: "Всі типи запитів"
+      category: Категорія
+      did_not_found_what_you_were_looking_for: "Не знайшли те, що хотіли?"
+      favors: Послуги
+      housing: Проживання
+      items: Речі
+      list_view: "У вигляді списка"
+      map_view: "У вигляді карти"
+      offer_something: "Нехай інші дізнаються!"
+      offer_type: "Тип пропозиції"
+      offers: Пропозиції
+      request_something: "Запросити що-небудь!"
+      request_type: "Тип запиту"
+      requests: Запити
+      rideshare: "Спільна поїздка"
+      you_have_something_others_do_not: "Можете запропонувати що-небудь?"
+    please_comment: Коментар
+  mercury:
+    content_too_long: "Вставлений текст занадто довгий."
+  okl:
+    member_id: Ідентифікатор
+    member_id_or_email: "ID користувача або електронна пошта"
+  paypal_accounts:
+    payout_info_title: "Інформація про виплату"
+    paypal_account_email_connected: "<del>Підключити PayPal аккаунт</del> Завершено!"
+    payout_info_paypal: "%{service_name} використовує PayPal для транзакцій оплати. %{create_paypal_account_link} потрібно для того, щоб Ви могли приймати оплату за ваші послуги і товари, і повинен бути підключений до %{service_name}."
+    paypal_billing_agreement_made: "<del>Дозволити %{service_name} оплату</del> Зроблено!"
+    commission_permission_needed: "Вам також необхідно дозволити %{service_name} брати оплату за транзакції."
+    create_paypal_account_link_text: "PayPal аккаунт"
+    connected_account: "PayPal аккаунт \"%{email}\" успішно підключений."
+    paypal_receive_funds_info_label_australia_only: "Ваший обліковий запис PayPal повинен бути здатний приймати платежі. Для цього вам можливо потрібен Premier або бізнес-аккаунт."
+    paypal_receive_funds_info_label: "Ваш PayPal аккаунт повинен бути здатний приймати платежі. Для цього вам можливо потрібен простой бізнес аккаунт."
+    paypal_receive_funds_info_australia_only: ~
+    paypal_receive_funds_info: "Якщо ви побачите повідомлення про помилку, при спробі підключення до %{service_name}, обновіть ваш PayPal за допомогою %{upgrade_paypal_account_link}. Це безкоштовно і легко. Якщо ви є приватною особою, PayPal рекомендує використовувати своє ім'я в якості імені бізнесу."
+    upgrade_paypal_account_link_text: "входу в рахунок і натискання посилання оновлення"
+    admin_account_not_connected: "Використання платіжної системи сайта %{service_name} для того, щоб отримувати платежі, неможливо, оскільки платіжна система не була налаштована. Будь ласка, %{contact_admin_link} для уточнення деталей."
+    contact_admin_link_text: "зв'яжіться з адміністратором"
+    you_are_ready_to_accept_payments: "Тепер ви готові приймати платежі!"
+    commission: "%{commission} %"
+    not_now: ~
+    new:
+      payout_info_you_need_to_connect: "Щоб приймати платежі вам необхідно підключити ваш PayPal аккаунт через %{service_name}."
+      payout_info_text: "Будь ласка завершіть наступні дії щоб підключити ваш аккаунт."
+      contact_admin_link_text: "зв'яжіться з адміністратором"
+      admin_account_not_connected: "Підключення вашого PayPal аккаунта неможливо, так як сайт %{service_name} не був налаштований для платежів. Будь ласка, %{contact_admin_link} для уточнення деталей."
+      paypal_account_email: "Підключити ваш PayPal аккаунт"
+      paypal_account_email_placeholder: "Ваш PayPal email адрес"
+      paypal_account_email_info_text: "Якщо у вас немає PayPal аккаунта, ви можете cтворити його тут %{create_paypal_account}. Якщо ви отримали повідомлення про помилку при підключенні PayPal, вам необхідно оновити його до уровня бізнес. Оновлення швидке, безкоштовне і просте. Якщо ви фізична особа, вам необхідно вказати ваше ім'я і прізвище в поле \"Назва компанії\", коли PayPal запросить це. Натисніть тут щоб оновити %{upgrade_paypal_account}."
+      create_paypal_account: "Натисніть тут"
+      upgrade_paypal_account: "Ввійдіть в ваш PayPal аккаунт"
+      paypal_account_billing_agreement: "Надайте %{service_name} дозвіл отримати комісію за транзакцію"
+      follow_steps: "Виконайте наступні кроки, щоб почати отримувати кошти:"
+      connect_paypal_account_title: "Підключіть свій аккаунт на PayPal"
+      connect_paypal_account_title_with_step: "Крок %{current_step}/%{total_steps}: Підключіть ваш PayPal аккаунт"
+      connect_paypal_account_instructions: "Натисніть на кнопку нижче, щоб увійти в PayPal і підключити ваш обліковий запис до %{service_name}."
+      connect_paypal_account: "Підключити PayPal аккаунт"
+      paypal_account_billing_agreement_with_step: "Крок %{current_step}/%{total_steps}: дозволити брати плату за транзакцію"
+      paypal_account_billing_agreement_info_both: "Після того, як ви зробите продаж через %{service_name}, комісія сервісу складе (%{commission_from_seller} від загальної вартості, виключаючи доставку, мінімальна комісія %{minimum_commission}) буде утримана з вашого аккаунта PayPal. Щоб приймати платежі в %{service_name}, вам необхідно дозволити сервісу утримувати комісію. %{paypal_info_link} не включена."
+      paypal_account_billing_agreement_info_fixed: "Після того, як ви зробите продаж через %{service_name}, комісія сервісу %{minimum_commission} буде утримана з вашого PayPal аккаунта. Щоб приймати платежі в %{service_name}, вам необхідно дозволити сервісу утримувати комісію. %{paypal_info_link} не включена."
+      paypal_account_billing_agreement_info_relative: "Після того, як ви зробите продаж через %{service_name}, комісія сервісу (%{commission_from_seller} від загальної вартості продукту, виключаючи доставку) буде утримана з вашого PayPal аккаунта. Щоб приймати платежі в %{service_name}, вам необхідно дозволити сервісу утримувати комісію. %{paypal_info_link} не включена."
+      paypal_account_billing_agreement_info_none: "%{service_name} в даний час не стягує плату за свої послуги. Якщо плата за послуги буде включена, вам необхідно буде надати %{service_name} дозвіл стягувати комісію для прийому платежів. Комісія не включає %{paypal_info_link}."
+      paypal_info_link_text: "PayPal комісія за обробку платежу"
+      billing_agreement_description: "Надайте %{service_name} дозвіл отримати комісію за транзакцію"
+      billing_agreement: "Надайте дозвіл"
+      permissions_not_granted: "Дозвіл для підключення PayPal аккаунта відсутній."
+      could_not_fetch_redirect_url: "Не вдалося отримати URL переадресації, щоб з'єднатися з PayPal."
+      paypal_not_enabled: "Платежі PayPal не включені."
+      billing_agreement_canceled: "Рахунок був скасований"
+      billing_agreement_not_accepted: "Ви не прийняли billing agreement в PayPal."
+      billing_agreement_wrong_account: "PayPal акаунти не збігаються. Будь ласка використовуйте той же самий PayPal аккаунт який ви вказали на першому кроці."
+      something_went_wrong: "Сталася якась помилка. Якщо проблема повториться, зв'яжіться зі службою підтримки."
+      account_not_verified: "Ви не підтвердили ваш PayPal аккаунт. Вам необхідно перейти на paypal.com і підтвердити ваш аккаунт перед тим як продовжити."
+      account_restricted: "Ваш PayPal аккаунт має обмеження і не може бути підключений. Будь ласка увійдіть в paypal.com щоб уточнити деталі або зв'яжіться зі службою підтримки PayPal щоб вирішити дане питання."
+    paypal_account_connected_title: "PayPal аккаунт підключений"
+    paypal_account_connected: "Аккаунт PayPal %{email} був підключений до %{service_name}."
+    change_account: "Змінити PayPal аккаунт"
+    missing: "У вас є відкриті публікації, але ваш PayPal рахунок не підключений для отримання платежів. Підключіть ваш PayPal і дозвольте %{service_name} знімати комісію за транзакцію через %{settings_link}."
+    from_your_payment_settings_link_text: "налаштування оплати"
+    redirect_message: "Перенаправлення на PayPal. Якщо нічого не відбудеться, натисніть %{redirect_link}"
+    redirect_link_text: тут
+    paypal_account_all_set_up: "Ура, все готово!"
+    can_receive_payments: "Тепер ви можете приймати оплату за своїми публікаціями."
+    paypal_account_connected_summary: "Аккаунт PayPal %{email} успішно підключений"
+    paypal_permission_granted_summary: "Дозвіл для комісій за транзакції отримано"
+  paypal:
+    pay_with_paypal: "Перейти до сплати"
+    checkout_with: ~
+    or_pay_with_paypal: ~
+    checkout_with_paypal: "Розрахунок через PayPal"
+    cancel_succesful: "PayPal платіж успішно скасований."
+    transaction:
+      commission_payment_name: "Комісія за %{listing_title}"
+      commission_payment_description: "Сервіс %{service_name} отримав комісію від транзакції що відноситься до %{listing_title}"
+    wait_while_loading: Зачекайте.
+    chatting_with_paypal: "Ми спілкуємося з PayPal."
+  people:
+    edit_links:
+      activate: Активувати
+      deactivate: Відключити
+    help_texts:
+      feedback_description_title: Відгуки
+      help_invitation_code_title: "Для того, щоб приєднатися потрібно запрошення"
+      terms_title: "Умови використання Kassi"
+      invite_only_help_text: "Оберіть цей варіант, якщо ви хочете, щоб нові користувачі могли вступати до спільноти тільки за запрошенням від існуючих користувачів."
+      invite_only_help_text_title: "Участь тільки за запрошеннями"
+    inactive_notification:
+      this_person_is_not_active_in_kassi: "Цей користувач більше не використовує %{service_name}"
+      inactive_description: "Користувач припинив використовувати %{service_name}. Ви не можете зв'язатися з цим користувачем, поставити йому оцінку або коментувати його лістинги."
+    new:
+      create_new_account: Зареєструватися
+      email: "Адрес електронної пошти"
+      email_is_in_use: "Цей адрес електронної пошти вже використовується."
+      email_is_in_use_or_not_allowed: "Цей адрес електронної пошти неприпустимий або вже використовується. Будь ласка, використовуйте адрес електронної пошти, асоційований з цією спільнотою, якщо така у вас є. Якщо ви все одно не можете здійснити вхід, зв'яжіться з нами, використовуючи форму зворотного зв'язку зліва."
+      email_not_allowed: "Даний email неприпустимий для реєстрації в %{service_name}. Використовуйте поштовий адрес, асоційований з даною спільнотою. Якщо у вас все одно не виходить авторизуватись, зв'яжіться з нами."
+      invalid_username_or_email: ~
+      email_restriction_instructions:
+        one: "Доступ до %{service_name} обмежено. Для того, щоб приєднатися до нього, адрес вашої електронної пошти повинен бути виду «%{allowed_emails}»."
+        few: "Доступ до %{service_name} обмежено. Ви повинні мати email адрес який підтверджує, що ви маєте право на участь."
+        many: "Доступ до %{service_name} обмежено. Ви повинні мати email адрес який підтверджує, що ви маєте право на участь."
+        other: "Доступ до %{service_name} обмежено. Ви повинні мати email адрес який підтверджує, що ви маєте право на участь."
+      family_name: "Прізвище:"
+      given_name: "Ім'я:"
+      i_accept_the_terms_and_privacy: "Я згоден з %{terms} і прочитана мною %{privacy}"
+      admin_emails_consent: "Я згоден отримувати листи від %{service_name} комманди і розумію, що можу змінити своє рішення у будь-який час"
+      invalid_invitation_code: "Код запрошення недійсний."
+      invitation_code: "Код запрошення:"
+      not_required: ", не обов'язково"
+      notification_is_mandatory: "Ви повинні вибрати не менше одного адреса ел. пошти для отримання сповіщень. Якщо ви не хочете отримувати ел. листи від %{service_name} перевірте налаштування сповіщень по ел. почте."
+      password_again: "Підтвердіть пароль"
+      show_my_name_to_others: "Показувати моє справжнє ім'я іншим користувачам %{service_name}"
+      sign_up: "Зареєструватися в %{service_name}"
+      terms: "умовами використання"
+      privacy: "політика конфіденційності"
+      username_is_in_use: "Це ім'я користувача зайнято."
+      username_is_invalid: "Можливо використовувати тільки латинські букви, цифри і знак підкреслення."
+      visible_only_to_you: "видно тільки вам"
+      visible_to_everybody: "видно для всіх"
+      create_account_with_facebook: "Cтворити обліковий запис за допомогою Facebook"
+      OR: або
+      signup_with_email: "Зареєструйте використовуючи адрес електронної пошти"
+    profile_feedback:
+      grade: "Оцінка:"
+      and_gave_following_feedback: "і залишив відгук"
+    profile_listings:
+      show_also_closed: "Показувати закриті"
+      show_only_open: "Показувати тільки відкриті"
+      no_image: "Немає зображення"
+    show:
+      contact: "Зв'язатися з %{person}"
+      about_me: "Про мене:"
+      add_description: "Розкажіть трохи про себе"
+      add_location: "Додайте місцезнаходження"
+      add_phone_number: "Додати номер телефону"
+      address: "Адрес:"
+      as_expected: "Як очікувалося"
+      edit_profile_info: "Редагувати профіль"
+      exceeded_expectations: "Набагато краще, ніж очікувалося"
+      positive: позитивн.
+      hide_description: Менше
+      less_than_expected: "Гірше ніж очікувалося"
+      phone_number: "Телефон:"
+      show_all_feedback: "Показати всі відгуки"
+      show_all_testimonials: "Показати всі відгуки"
+      show_full_description: Більше
+      slightly_better_than_expected: "Трохи краще ніж очікувалося"
+      slightly_less_than_expected: "Трохи гірше, ніж очікувалося"
+      what_are_these: "Що це?"
+      review: "отриманий відгук"
+      reviews: "отримані відгуки"
+      listing: публікація
+      listings: публікації
+      open_listing: "відкрите оголошення"
+      open_listings: "відкриті оголошення"
+      no_listings: "Публікацій немає"
+      no_open_listings: "Немає відкритих публікацій"
+      no_reviews: "Немає відгуків"
+      show_all_listings: "Показати всі пропозиції"
+      show_all_open_listings: "Показати всі відкриті публікації"
+      show_all_reviews: "Показати всі огляди"
+    followed_people:
+      you_follow_plural: "Ви підписані на %{count} учасників"
+      you_follow_singular: "Ви підписані на %{count} учасників"
+      they_follow_plural: "%{count} учасників підписані"
+      they_follow_singular: "%{count} учасників підписані"
+      show_all_followed_people: "Показати всіх підписантів"
+      no_followed_people: "Ні на кого не підписаний(а)"
+    follow_button:
+      following: Підписані
+      follow: Підписатися
+      unfollow: Відписатися
+  sessions:
+    new:
+      create_new_account: "Створити новий обліковий запис"
+      i_forgot_my_password: "Я забув пароль або ім'я користувача"
+      login: Увійти
+      login_to_kassi: "Увійти в %{service_name}"
+      connect_your_facebook_to_kassi: "Підключіть ваш обліковий запис Facebook до %{service_name}"
+      facebook_account: "Обліковий запис Facebook:"
+      log_in_to_link_account: "Якщо у вас вже є обліковий запис %{service_name}, увійдіть в систему для зв'язку її з вашим обліковим записом Facebook."
+      you_can_also_create_new_account: "Якщо ви не маєте облікового запису в %{service_name}, %{accont_creation_link} для її створення за допомогою облікового запису Facebook."
+      account_creation_link_text: "натисніть тут"
+      cancle_facebook_connect: "Якщо ви не хочете прив'язувати цей обліковий запис, ви можете %{cancel_link}."
+      facebook_cancel_link_text: "скасувати цю дію"
+      log_in_with_your_facebook_account: "Увійти через Facebook:"
+      or_sign_up_with_your_username: "…або за допомогою логіна і пароля:"
+      we_will_not_post_without_asking_you: "Ми ніколи не будемо розміщувати повідомлення в Facebook без вашого дозволу."
+    password_forgotten:
+      email: Email
+      password_recovery_instructions: "Введіть свій адрес електронної пошти і ви отримаєте інструкції як змінити пароль."
+      request_new_password: "Запросити новий пароль"
+      change_your_password: "Зміна пароля"
+    confirmation_pending:
+      welcome_to_kassi: "Ласкаво просимо в %{service_name}!"
+      check_your_email: "Перевірте вашу поштову скриньку"
+      resend_confirmation_instructions: "Повторно надіслати інструкції для підтердження"
+      your_current_email_is: "Ваша електронна пошта: %{email} ."
+      change_email: Змінити
+      confirm_your_email: "Підтвердіть Ваш email"
+      account_confirmation_instructions: "Незабаром ви отримаєте електронного листа з посиланням, яке необхідно натиснути для підтердження електронної пошти. Після підтердження вашої електронної пошти ви зможете почати використовувати %{service_name} ."
+      account_confirmation_instructions_title_admin: "Ласкаво просимо в ваш маркетплейс!"
+      before_full_access_you_need_to_confirm_email: "Перш ніж ми надамо повний доступ до вашого маркетплейсу, необхідно зробити останній крок: підтвердити ваш електронний адрес."
+      before_confirmation_only_access_admin_dashboard: "До підтердження ви тільки можете мати доступ до %{admin_dashboard_link}."
+      admin_dashboard_link_text: "панель керування адміністратора"
+      account_confirmation_instructions_admin: "Незабаром ви отримаєте електронного листа з посиланням, яке необхідно натиснути для підтердження електронної пошти. Після підтердження вашої електронної пошти ви зможете почати використовувати ваш маркетплейс."
+      contact_support_link_text: "зв'язатися з службою підтримки Sharetribe"
+  settings:
+    account:
+      change: Змінити
+      confirm_new_password: "Підтвердити новий пароль"
+      delete_account: "Видалити обліковий запис"
+      delete_account_button: "Видалити мій аккаунт назавжди"
+      delete_account_confirmation_popup: "Ви впевнені що хочете видалити ваш аккаунт і назавжди втратити інформацію що відноситься до нього? Видалення аккаунта не може бути відмінено."
+      email_addresses: "Адреса e-mail"
+      new_email: "Новий адрес електронної пошти"
+      delete_personal_information: "Якщо ви видалите ваш аккаунт, ваша персональная інформація (ім'я, телефон, адрес, email, аватар і тд) будуть видалені назавжди і без відновлення. Всі публікації які ви створили будуть видалені. Ви не зможете реактивувати ваш аккаунт."
+      delete_information_others_involved: "Інформація в яку залучені інші учасники (діалоги, транзакції, відгуки, і тд) не будуть видалені при видалені вашого аккаунта. Однак, ваше ім'я/Назва більше не будуть відображатися."
+      unfinished_transactions: "Ваш аккаунт не може бути видалений так як ви маєте незавершені транзакції. Будь ласка завершіть всі транзакції перед видаленням вашого аккаунта."
+      only_admin: ~
+      new_password: "Новий пароль"
+      save: Зберегти
+      these_fields_are_shown_only_to_you: "Якщо ви не повідомили ваше справжнє ім'я, у вашому профілі буде відображатися вибране вами ім'я користувача. Інша інформація буде доступна тільки вам."
+      email_already_confirmed: "Ваш email адрес вже підтверджений."
+      email:
+        address_title: Адрес
+        remove_title: Видалити
+        remove_confirmation: "Ви впевнені в тому, що ви хочете видалити цей email адрес?"
+        receive_notifications_title_desktop: "Отримувати сповіщення"
+        receive_notifications_title_mobile: "Отримувати сповіщення"
+        receive_notifications_new_title_mobile: "Отримувати сповіщення"
+        add_new_with_plus: "+ Додати новий e-mail адрес"
+        add_new_cancel: Скасувати
+        confirmation_title_mobile: "Підтвердження:"
+        confirmation_title_desktop: Підтвердження
+        confirmation_resend: "Надіслати повторно"
+        status_confirmed: Підтверджено
+        status_pending: "В очікуванні"
+    notifications:
+      email_from_admins: "Я хотів би отримувати інколи сповіщення від администраторів цієї спільноти"
+      i_want_to_get_email_notification_when: "Я хочу отримувати сповіщення по електронній пошті, коли"
+      newsletters: "Розсилка від администраторів"
+      community_updates: "Новинна розсилка"
+      email_about_confirm_reminders: "...я забув (а) підтвердити запит як виконаний"
+      email_about_new_comments_to_own_listing: "...хто-небудь залишив коментар на мій запит або пропозицію"
+      email_about_new_messages: "...хто-небудь відправив мені повідомлення"
+      email_about_new_received_testimonials: "...хто-небудь залишив відгук про мене"
+      email_about_testimonial_reminders: "...якщо я забув залишити відгук про подію"
+      email_daily_community_updates: "Сповіщати <b>щодня</b> при наявності нових публікацій"
+      email_weekly_community_updates: "Сповіщати <b>щотижня</b> при наявності нових публікацій"
+      do_not_email_community_updates: "Не посилати мені розсилки"
+      email_when_conversation_accepted: "...хто-небудь прийняв мій запит або пропозицію"
+      email_when_conversation_rejected: "...хто-небудь відхилив мій запит або пропозицію"
+      email_about_completed_transactions: "...хтось зазначив мою пропозицію або запит як виконаний"
+      email_about_new_payments: "...я отримав новий платіж"
+      email_about_new_listings_by_followed_people: "... хтось на кого я підписаний розмістив нову публікацію"
+      unsubscribe_succesful: "Ви успішно відписалися від розсилки!"
+      unsubscribe_info_text: "Ви більше не будете отримувати подібні листи. Перевірте свої %{settings_link}, щоб обрати, які листи ви хотіли б отримувати від %{service_name}, або відвідайте %{homepage_link}"
+      settings_link: налаштування
+      homepage_link: "домашню сторінку"
+      unsubscribe_unsuccesful: "Помилка при відмові від підписки"
+      unsuccessful_unsubscribe_info_text: "Причина цього може полягати в тому, що посилання, за яким ви перейшли, застаріло або зламано. Зв'яжіться з нами за допомогою кнопки, розташованої зліва, або увійдіть в свій обліковий запис, щоб змінити налаштування."
+    profile:
+      about_you: "Про вас:"
+      city: "Місто:"
+      family_name: "Прізвище:"
+      given_name: "Ім'я:"
+      first_name_with_initial: "(тільки перша буква відображається іншим участникам)"
+      first_name_only: "(не видно іншим участникам)"
+      display_name: "Відображуване ім'я"
+      display_name_description: "Якщо ви представляєте організацію, ви можете використовувати дане ім'я в якості відображуваного. Дане ім'я показується іншим користувачам замість ваших справжніх імені і прізвища."
+      location_description: "Ви можете ввести або своє точне місцезнаходження, або поштовий індекс. Вкажіть як мінімум свій індекс. Точне місцезнаходження можливо задати за допомогою карти."
+      phone_number: "Номер телефону:"
+      profile_picture: "Зображення профілю"
+      postal_code: "Індекс:"
+      profile_page: "на сторінці вашого профілю"
+      profilemap: Карта
+      street_address: "Адрес:"
+      these_fields_are_shown_in_your: "Ця інформація відображається всім користувачам %{service_name}"
+      visible_to_everybody: "видно для всіх"
+      visible_to_registered_users: "(видно тільки для зареєстрованих користувачів)"
+      default_in_listing: "(використовується за замовчуванням при створенні нової публікації)"
+      invisible: "(не видно іншим участникам)"
+      image_is_processing: "Зачекайте. Зображення вашого профілю обробляється. Буде готово через хвилину або дві."
+    save_information: Зберегти
+  shipping_address:
+    shipping_address: "Адреса доставки"
+  tag_cloud:
+    tag_used:
+      with_tag: "З меткой"
+      without_tag: "Без мітки"
+  terms:
+    show:
+      accept_terms: "Згода з умовами використання %{service_name}"
+      here: тут
+      i_accept_new_terms: "Я згоден з новими умовами"
+      i_accept_terms: "Я згоден з умовами"
+      terms: "Умови використання %{service_name}"
+      terms_have_changed: "Умови використання змінені"
+      you_can_view_the_new_terms: "Ви можете ознайомитись з новими умовами"
+      you_need_to_accept: "Вітаємо Вас в %{service_name}! Судячи з усього, ви вперше використовуєте цей сервіс. Перед початком використання ви повинні прийняти"
+      you_need_to_accept_new_terms: "Умови використання %{service_name} були змінені. Ви повинні прийняти нові умови для того, щоб продовжувати використовувати %{service_name}. Нові умови використання визначають порядок роботи сервісу після закінчення дослідного проекту."
+  testimonials:
+    index:
+      all_testimonials: "Всі відгуки"
+      feedback_altogether: "Всі відгуки: "
+      loading_more_testimonials: "Завантаження відгуків"
+      no_testimonials: "Відгуків немає."
+    new:
+      as_expected: "Як очікувалося"
+      exceeded_expectations: "Набагато краще, ніж очікувалося"
+      give_feedback_to: "Залишити відгук про %{person}"
+      grade: "Ваше загальне відчуття?"
+      less_than_expected: "Гірше, ніж очікувалося"
+      send_feedback: "Надіслати відгук"
+      slightly_better_than_expected: "Краще, ніж очікувалося"
+      slightly_less_than_expected: "Трохи гірше, ніж очікувалося"
+      textual_feedback: "Як все пройшло?"
+      this_will_be_shown_in_profile: "Залишений вами відгук буде видно іншим користувачам на сторінці профілю %{person}. Це допоможе іншим участникам оцінити ступінь довіри до %{person}."
+      positive: Позитивний
+      negative: Негативний
+      default_textual_feedback: "Все пройшло відмінно, дуже дякую!"
+    testimonial:
+      about_listing: "про публікації"
+  date:
+    formats:
+      long_with_abbr_day_name: "%a, %b %d, %Y"
+    first_day_of_week: ~
+  datepicker:
+    days:
+      sunday: Неділя
+      monday: Понеділок
+      tuesday: Вівторок
+      wednesday: Середа
+      thursday: Четвер
+      friday: П'ятниця
+      saturday: Субота
+    days_short:
+      sunday: Нед
+      monday: Пнд
+      tuesday: Втр
+      wednesday: Срд
+      thursday: Чтв
+      friday: Птн
+      saturday: Суб
+    days_min:
+      sunday: Вс
+      monday: Пн
+      tuesday: Вт
+      wednesday: Ср
+      thursday: Чт
+      friday: Пт
+      saturday: Сб
+    months:
+      january: Січень
+      february: Лютий
+      march: Березень
+      april: Квітень
+      may: Травень
+      june: Червень
+      july: Липень
+      august: Серпень
+      september: Вересень
+      october: Жовтень
+      november: Листопад
+      december: Грудень
+    months_short:
+      january: Січ
+      february: Лют
+      march: Берез
+      april: Кв
+      may: Трав
+      june: Черв
+      july: Лип
+      august: Серп
+      september: Верес
+      october: Жовт
+      november: Листоп
+      december: Груд
+    today: Сьогодні
+    clear: Очистити
+    format: mm/dd/yyyy
+  time:
+    formats:
+      short: "%e %b %Y в %H:%M"
+      shorter: "%e %b в %H:%M"
+      short_date: "%e. %b %Y"
+      hours_only: "%H:%M"
+  timestamps:
+    day_ago: "%{count} день назад"
+    days_ago: "%{count} днів назад"
+    hour_ago: "%{count} годину тому"
+    hours_ago: "%{count} годин назад"
+    minute_ago: "%{count} хвилину тому"
+    minutes_ago: "%{count} хвилин тому"
+    month_ago: "%{count} місяць тому"
+    months_ago: "%{count} місяців тому"
+    seconds_ago: "%{count} секунд тому"
+    year_ago: "%{count} рік тому"
+    years_ago: "%{count} років тому"
+    days_since:
+      one: "%{count} день"
+      few: "%{count} дня"
+      many: днів
+      other: дня
+    time_to:
+      seconds:
+        one: "%{count} секунда"
+        few: "%{count} секунд"
+        many: "%{count} секунд"
+        other: "%{count} секунд"
+      minutes:
+        one: "%{count} хвилина"
+        few: "%{count} хвилин"
+        many: "%{count} хвилина"
+        other: "%{count} хвилина"
+      hours:
+        one: "%{count} година"
+        few: "%{count} години"
+        many: "%{count} годин"
+        other: "%{count} годин"
+      days:
+        one: "%{count} день"
+        few: "%{count} дня"
+        many: "%{count} днів"
+        other: "%{count} днів"
+  transactions:
+    initiate:
+      booked_days: "Заброньовано днів:"
+      booked_nights: "Заброньовані дні:"
+      booked_days_label:
+        one: "Заброньований день:"
+        few: "Заброньовані дні:"
+        many: "Заброньовані дні:"
+        other: "Заброньовані дні:"
+      booked_nights_label:
+        one: "Забронированная ніч:"
+        few: "Заброньовані ночи:"
+        many: "Заброньовані ночи:"
+        other: "Заброньовані ночи:"
+      price_per_day: "Ціна за день:"
+      price_per_night: "Вартість за добу:"
+      price_per_hour: ~
+      price_per_unit: ~
+      quantity: "Кількість:"
+      subtotal: "Попередній підсумок:"
+      shipping-price: "Доставка:"
+      stripe-fee: ~
+      start_end_time: ~
+    price_per_quantity: "Ціна за %{unit_type}:"
+    price: "Ціна:"
+    quantity: "Кількість: %{quantity}"
+    unit_price: "Ціна одиниці: %{unit_price}"
+    total: "Всього:"
+    total_to_pay: ~
+  unit:
+    day: день
+    days: днів
+  web:
+    listings:
+      errors:
+        availability:
+          something_went_wrong: "Неможливо показати інформацію про доступність. Спробуйте оновити сторінку."
+          saving_failed: "Не вдалося зберегти зміни в доступність. Спробуйте перезавантажити сторінку."
+        working_hours:
+          required: ~
+          overlaps: ~
+          covers: ~
+      pricing_units:
+        piece: шт.
+        hour: година
+        day: день
+        night: ніч
+        week: неділя
+        month: місяць
+      edit_availability_header: Доступність
+      save_and_close_availability_editing: "Зберегти і закрити"
+      confirm_discarding_unsaved_availability_changes_explanation: "Ви не зберегли зміни в інформації про доступність. Якщо ви продовжите, дані зміни будуть втрачені."
+      confirm_discarding_unsaved_availability_changes_question: "Ви дійсно хочете скасувати зміни?"
+      edit_listing_availability: "Редагувати доступність каталогів"
+      working_hours:
+        default_schedule: ~
+        i_am_available_on: ~
+        start_time: ~
+        end_time: ~
+        add_another_time_slot: ~
+        save: ~
+    no_listings:
+      sorry: "Не знайдено результатів, співпадаючих з вашим запитом."
+      try_other_search_terms: "Змінити умови пошуку?"
+    listing_card:
+      add_picture: "Додати зображення"
+      no_picture: "Немає картинки"
+    search:
+      page: Сторінка
+      page_of_pages: "з %{total_number_of_pages}"
+    topbar:
+      menu: Меню
+      more: Ще
+      search_placeholder: Пошук...
+      search_location_placeholder: Місцезнаходження
+      user: Користувач
+      inbox: Вхідні
+      profile: Профіль
+      manage_listings: "Управління публікаціями"
+      settings: Налаштування
+      logout: Вийти
+      login: Увійти
+      signup: Реєстрація
+      admin_dashboard: "Панель адміністратора"
+      language: Мова
+    utils:
+      km: км
+      mi: миль
+    branding:
+      powered_by: "%{service_name} надається за допомогою марктеплейс-платформи %{sharetribe_link}."
+      create_own: "Хотіли б cтворити свій власний маркетплейс як %{service_name}? Дізнайся більше %{learn_more}."
+      learn_more: "Дізнайся більше"
+  will_paginate:
+    models:
+      person:
+        zero: Учасників
+        one: Учасник
+        few: Учасників
+        many: Учасника
+        other: Учасників
+    previous_label: "&#8592; Назад"
+    next_label: "Далі &#8594;"
+    page_gap: "&hellip:"
+    page_entries_info:
+      single_page:
+        zero: "%{model} не знайдено"
+        one: "Відображена 1 %{model}"
+        few: "Відображені всі %{count} %{model}"
+        many: "Відображені всі %{count} %{model}"
+        other: "Відображені всі %{count} %{model}"
+      single_page_html:
+        zero: "%{model} не знайдено "
+        one: "Показуємо <b>1</b> %{model}"
+        few: "Показуємо <b>all&nbsp;%{count}</b> %{model}"
+        many: "Показуємо <b>all&nbsp;%{count}</b> %{model}"
+        other: "Показуємо <b>all&nbsp;%{count}</b> %{model}"
+      multi_page: "Відображається %{model} %{from}-%{to} з %{count} загалом"
+      multi_page_html: "Показуємо %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> з <b>%{count}</b> загалом"
+    person:
+      community_members_entries_info:
+        multi_page: ~
+        multi_page_html: ~
+  stripe_accounts:
+    admin_account_not_connected: ~
+    contact_admin_link_text: ~
+    you_are_ready_to_accept_payments: ~
+    commission: ~
+    pay_with_stripe: ~
+    add_and_pay: ~
+    card_not_stored: ~
+    missing_payment: ~
+    stripe_bank_connected: ~
+    stripe_can_accept: ~
+    stripe_credit_card: ~
+    paypal: ~
+    paypal_connected: ~
+    paypal_can_accept: ~
+    paypal_connected_give_permission: ~
+    form_new:
+      need_info: ~
+      select_country: ~
+      legal_name: ~
+      first_name: ~
+      last_name: ~
+      country: ~
+      birth_date: ~
+      ssn_last_4: ~
+      personal_id_number: ~
+      address_country: ~
+      address_state: ~
+      address_province: ~
+      address_city: ~
+      address_postal_code: ~
+      address_line1: ~
+      tos_link: ~
+      tos_link_title: ~
+      save_details: ~
+      edit: ~
+      cancel: ~
+    form_bank:
+      bank_account_number: ~
+      bank_routing_number: ~
+      bank_routing_1: ~
+      bank_routing_2: ~
+      bank_currency: ~
+      update_also_bank_account: ~
+      messages:
+        account_number: ~
+        routing_number: ~
+        bank_code: ~
+        branch_code: ~
+        transit_number: ~
+        institution_number: ~
+        format_varies_by_bank: ~
+        bsb: ~
+        error_message: ~
+        clearing_code: ~
+        sort_code: ~
+        must_match: ~
+        a_dash: ~
+        digits: ~
+        digits_or_chars: ~
+    form_verification:
+      personal_id_number: ~
+      document: ~
+      send_verification: ~
+      need_verification: ~
+    form_pin:
+      social_insurance_number: ~
+      social_security_number: ~
+      ssn_last_4: ~
+      hong_kong_identity_card: ~
+      singapore_identity_card: ~
+      messages:
+        social_insurance_number: ~
+  payment_settings:
+    title: ~
+    bank_account: ~
+    paypal: ~
+    bank_account_details: ~
+    add_bank_details: ~
+    can_accept_stripe_and_paypal: ~
+    to_accept_paypal: ~
+    connect_paypal: ~
+    wrong_setup: ~
+    invalid_bank_account_number: ~
+    invalid_postal_code: ~
