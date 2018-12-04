@@ -26,6 +26,7 @@ module Sharetribe
     {ident: "nl", name: "Nederlands", language: "nl", region: "NL", fallback: nil}, # Dutch (Netherlands)
     {ident: "pt-BR", name: "Português do Brasil", language: "pt", region: "BR", fallback: nil}, # Portuguese (Brazil)
     {ident: "ru", name: "Pусский", language: "ru", region: "RU", fallback: nil}, # Russian (Russia)
+    {ident: "ua", name: "Українська", language: "ua", region: "UA", fallback: nil}, # Ukrainian (Ukraine)
     {ident: "sv", name: "Svenska", language: "sv", region: "SE", fallback: nil}, # Swedish (Sweden)
     {ident: "tr-TR", name: "Turkish", language: "tr", region: "TR", fallback: nil}, # Turkish (Turkey)
     {ident: "zh", name: "中文", language: "zh", region: "CN", fallback: nil}, # Chinese (China)
