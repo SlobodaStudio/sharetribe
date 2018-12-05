@@ -87,7 +87,11 @@
     :javascript
       window.I18n = {};
 
-    = javascript_include_tag "i18n/#{I18n.locale}"
+    - if I18n.locale == "ua"
+        = javascript_include_tag "i18n/ru"
+    -else
+        = javascript_include_tag "i18n/#{I18n.locale}"
+    -end
 
     = javascript_include_tag 'application'
 
