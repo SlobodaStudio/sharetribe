@@ -80,7 +80,11 @@ class HomepageController < ApplicationController
                                   location_search_in_use: location_in_use,
                                   keyword_search_in_use: keyword_in_use,
                                   relevant_search_fields: relevant_search_fields)
-
+ 
+    search_result.on_success { |listings|
+      listings.shuffle!
+    }
+                              
     if @view_type == 'map'
       viewport = viewport_geometry(params[:boundingbox], params[:lc], @current_community.location)
     end
