@@ -118,8 +118,8 @@
             .text-with-icon
               = t(".comments")
               %span#comment_count= "(#{@listing.comments_count})"
-          #follow-links.follow-links
-            = render :partial => "follow_links"
+          // #follow-links.follow-links
+          //  = render :partial => "follow_links"
           #comment-list
             = render :partial => "comment", :collection => @listing.comments
           #comment-form
