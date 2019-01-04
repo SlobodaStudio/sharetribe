@@ -57,8 +57,6 @@
 
     - if listing_shape_menu_enabled || @category_menu_enabled
       .home-toolbar-show-filters-button-container
-        .home-toolbar-show-filters-button#home-toolbar-show-filters
-          = t(".filter")
 
     .home-toolbar-button-group{:class => listing_shape_menu_enabled || @category_menu_enabled ? "filters-enabled" : ""}
       - ["grid", "list"].each do |view_type|
