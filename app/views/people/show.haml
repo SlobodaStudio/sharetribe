@@ -28,9 +28,31 @@
       %h2.people-header
         - if listings.total_entries > 0
           - if current_user?(@person) && params[:show_closed]
-            = pluralize(listings.total_entries, t(".listing"), t(".listings"))
+            - num = listings.total_entries.to_s.length - 1
+            - if listings.total_entries.to_i % 100  >= 10 && .to_i % 100 <= 20
+              = listings.total_entries.to_s + t(".few_listings")
+            - else
+              - if listings.total_entries.to_s[num].to_i == 1
+                = listings.total_entries.to_s + t(".listing")
+              - elsif listings.total_entries.to_s[num].to_i > 1 && listings.total_entries.to_s[num].to_i < 5 
+                = listings.total_entries.to_s + t(".listings") 
+              - else
+                = listings.total_entries.to_s + t(".few_listings")
+              - end
+            - end
           - else
-            = pluralize(listings.total_entries, t(".open_listing"), t(".open_listings"))
+            - num = listings.total_entries.to_s.length - 1
+            - if listings.total_entries.to_i % 100  >= 10 && .to_i % 100 <= 20
+              = listings.total_entries.to_s + t(".few_open_listings")
+            - else
+              - if listings.total_entries.to_s[num].to_i == 1
+                = listings.total_entries.to_s + t(".open_listing")
+              - elsif listings.total_entries.to_s[num].to_i > 1 && listings.total_entries.to_s[num].to_i < 5 
+                = listings.total_entries.to_s + t(".open_listings") 
+              - else
+                = listings.total_entries.to_s + t(".few_open_listings")
+              - end
+            - end
         - else
           - if current_user?(@person) && params[:show_closed]
             = t(".no_listings")
