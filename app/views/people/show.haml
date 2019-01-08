@@ -29,7 +29,7 @@
         - if listings.total_entries > 0
           - if current_user?(@person) && params[:show_closed]
             - num = listings.total_entries.to_s.length - 1
-            - if listings.total_entries.to_i % 100  >= 10 && .to_i % 100 <= 20
+            - if listings.total_entries.to_i % 100  >= 10 && listings.total_entries.to_i % 100 <= 20
               = listings.total_entries.to_s + t(".few_listings")
             - else
               - if listings.total_entries.to_s[num].to_i == 1
@@ -40,7 +40,7 @@
                 = listings.total_entries.to_s + t(".few_listings")
           - else
             - num = listings.total_entries.to_s.length - 1
-            - if listings.total_entries.to_i % 100  >= 10 && .to_i % 100 <= 20
+            - if listings.total_entries.to_i % 100  >= 10 && listings.total_entries.to_i % 100 <= 20
               = listings.total_entries.to_s + t(".few_open_listings")
             - else
               - if listings.total_entries.to_s[num].to_i == 1
