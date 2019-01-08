@@ -18,22 +18,58 @@ module ApplicationHelper
     to_time = to_time.to_time if to_time.respond_to?(:to_time)
     distance_in_minutes = (((to_time - from_time).abs)/60).round
     distance_in_seconds = ((to_time - from_time).abs).round
-    time = case distance_in_minutes
-      when 0..1           then (distance_in_seconds < 60) ? t('timestamps.seconds_ago', :count => distance_in_seconds) : t('timestamps.minute_ago', :count => 1)
-      when 2..59          then t('timestamps.minutes_ago', :count => distance_in_minutes)
-      when 60..90         then t('timestamps.hour_ago', :count => 1)
-      when 90..1440       then t('timestamps.hours_ago', :count => (distance_in_minutes.to_f / 60.0).round)
-      when 1440..2160     then t('timestamps.day_ago', :count => 1) # 1-1.5 days
-      when 2160..2880     then t('timestamps.days_ago', :count => (distance_in_minutes.to_f / 1440.0).round) # 1.5-2 days
-      #else from_time.strftime(t('date.formats.default'))
-    end
-    if distance_in_minutes > 2880
-      distance_in_days = (distance_in_minutes/1440.0).round
-      time = case distance_in_days
-        when 0..30    then t('timestamps.days_ago', :count => distance_in_days)
-        when 31..50   then t('timestamps.month_ago', :count => 1)
-        when 51..364  then t('timestamps.months_ago', :count => (distance_in_days.to_f / 30.0).round)
-        else               t('timestamps.years_ago', :count => (distance_in_days.to_f / 365.24).round)
+    if @current_user.locale == "ru" || @current_user.locale == "ua"
+      if distance_in_seconds < 60 #seconds
+        time_name = 'second'
+        time_count = distance_in_seconds
+      elsif distance_in_minutes < 60 #minutes
+        time_name = 'minute'
+        time_count = distance_in_minutes
+      elsif distance_in_minutes < 2880 #hours
+        time_name = 'hour' 
+        time_count = (distance_in_minutes.to_f / 60.0).round   
+      elsif distance_in_minutes < 43200 #day
+        time_name = 'day'
+        time_count = (distance_in_minutes.to_f/1440.0).round
+      elsif distance_in_minutes < 525600 #month
+        time_name = 'month'
+        time_count = (((distance_in_minutes.to_f/1440.0).round).to_f / 30.0).round
+      else
+        time_name = 'year'
+        time_count = (((distance_in_minutes.to_f/1440.0).round).to_f / 365.24).round
+      end
+
+      num = time_count.to_s.length - 1
+
+      if time_count.to_i % 100  >= 10 && time_count.to_i % 100 <= 20
+        time = t('timestamps.'+time_name+'s_ago', :count => time_count)
+      else
+        if time_count.to_s[num].to_i == 1
+          time = t('timestamps.'+time_name+'_ago', :count => time_count)
+        elsif time_count.to_s[num].to_i > 1 && time_count.to_s[num].to_i < 5 
+          time = t('timestamps.few_'+time_name+'s_ago', :count => time_count)
+        else
+          time = t('timestamps.'+time_name+'s_ago', :count => time_count)
+        end
+      end
+    else
+      time = case distance_in_minutes
+        when 0..1           then (distance_in_seconds < 60) ? t('timestamps.seconds_ago', :count => distance_in_seconds) : t('timestamps.minute_ago', :count => 1)
+        when 2..59          then t('timestamps.minutes_ago', :count => distance_in_minutes)
+        when 60..90         then t('timestamps.hour_ago', :count => 1)
+        when 90..1440       then t('timestamps.hours_ago', :count => (distance_in_minutes.to_f / 60.0).round)
+        when 1440..2160     then t('timestamps.day_ago', :count => 1) # 1-1.5 days
+        when 2160..2880     then t('timestamps.days_ago', :count => (distance_in_minutes.to_f / 1440.0).round) # 1.5-2 days
+        #else from_time.strftime(t('date.formats.default'))
+      end
+      if distance_in_minutes > 2880
+        distance_in_days = (distance_in_minutes/1440.0).round
+        time = case distance_in_days
+          when 0..30    then t('timestamps.days_ago', :count => distance_in_days)
+          when 31..50   then t('timestamps.month_ago', :count => 1)
+          when 51..364  then t('timestamps.months_ago', :count => (distance_in_days.to_f / 30.0).round)
+          else               t('timestamps.years_ago', :count => (distance_in_days.to_f / 365.24).round)
+        end
       end
     end
 
