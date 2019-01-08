@@ -2052,6 +2052,7 @@ ru:
       listings: публикации
       open_listing: "открытое объявление"
       open_listings: "открытые объявления"
+      few_open_listings: "открытых объявлений"
       no_listings: "Нет публикаций"
       no_open_listings: "Нет открытых публикаций"
       no_reviews: "Нет отзывов"
