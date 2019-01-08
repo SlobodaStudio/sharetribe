@@ -38,8 +38,6 @@
                 = listings.total_entries.to_s + t(".listings") 
               - else
                 = listings.total_entries.to_s + t(".few_listings")
-              - end
-            - end
           - else
             - num = listings.total_entries.to_s.length - 1
             - if listings.total_entries.to_i % 100  >= 10 && .to_i % 100 <= 20
@@ -51,8 +49,6 @@
                 = listings.total_entries.to_s + t(".open_listings") 
               - else
                 = listings.total_entries.to_s + t(".few_open_listings")
-              - end
-            - end
         - else
           - if current_user?(@person) && params[:show_closed]
             = t(".no_listings")
