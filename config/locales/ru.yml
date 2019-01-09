@@ -2062,9 +2062,9 @@ ru:
       show_all_reviews: "Показать все обзоры"
     followed_people:
       you_follow_plural: "Вы подписаны на %{count} участников"
-      you_follow_singular: "Вы подписаны на %{count} участников"
+      you_follow_singular: "Вы подписаны на %{count} участника"
       they_follow_plural: "%{count} участников подписаны"
-      they_follow_singular: "%{count} участников подписаны"
+      they_follow_singular: "%{count} участник подписан"
       show_all_followed_people: "Показать всех подписчиков"
       no_followed_people: "Ни на кого не подписан(а)"
     follow_button:
