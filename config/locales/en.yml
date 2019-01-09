@@ -2038,8 +2038,10 @@ en:
       listings: listings
       open_listing: "open listing"
       open_listings: "open listings"
+      few_open_listings: "open listings"
       no_listings: "No listings"
       no_open_listings: "No open listings"
+      few_no_open_listings: "No open listings"
       no_reviews: "No reviews"
       show_all_listings: "Show all listings"
       show_all_open_listings: "Show all open listings"
