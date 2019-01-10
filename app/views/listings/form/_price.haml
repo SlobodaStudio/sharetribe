@@ -21,6 +21,10 @@
           %option{value: unit_option[:value], selected: unit_option[:selected], data: { kind: unit_option[:kind] }}
             = unit_option[:display]
 
+    .price-type
+      = form.check_box :negotiable_price
+      = label_tag :negotiable_price, t(".type")
+
     %small
       - payment_fee_info_link = capture do
         %a.listing-payment-fee-info-link#payment_fee_info_link{href: '#'}

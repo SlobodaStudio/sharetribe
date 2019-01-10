@@ -1678,6 +1678,7 @@ ru:
         price: Цена
         per: за
         per_day: "в день"
+        type: Договорная
         mass: "шт, кг, л, м2, ..."
         time: "час, день, месяц, ..."
         long_time: "неделя, месяц, ..."
@@ -1831,6 +1832,7 @@ ru:
       price:
         per_quantity_unit: "за %{quantity_unit}"
         per_day: "в день"
+        type: Договорная
       delivery: "Способ доставки"
       shipping: "Доставка (+%{price})"
       shipping_no_price: Доставка
