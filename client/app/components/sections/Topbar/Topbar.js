@@ -39,7 +39,6 @@ const profileActions = function profileActions(routes, username) {
     settingsAction: routes.person_settings_path(username),
     adminDashboardAction: routes.admin_path(),
     logoutAction: routes.logout_path(),
-    manageListingsAction: `${routes.person_path(username)}?show_closed=1`,
   } : null;
 };
 
@@ -83,7 +82,6 @@ const mobileProfileLinks = function mobileProfileLinks(username, isAdmin, router
     const links = [
       formatLinkData(profilePaths.inboxAction, location, customColor, [t('web.topbar.inbox')].concat(notificationBadgeInArray)),
       formatLinkData(profilePaths.profileAction, location, customColor, t('web.topbar.profile'), 'menuitem'),
-      formatLinkData(profilePaths.manageListingsAction, location, customColor, t('web.topbar.manage_listings')),
       formatLinkData(profilePaths.settingsAction, location, customColor, t('web.topbar.settings')),
       formatLinkData(profilePaths.logoutAction, location, customColor, t('web.topbar.logout')),
     ];
