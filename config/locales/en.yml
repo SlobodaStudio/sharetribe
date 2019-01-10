@@ -1320,7 +1320,7 @@ en:
       welcome_to_new_kassi: "Welcome to new %{service_name}!"
       no_reviews: "No reviews"
       no_image: "No image"
-      filter: Filter
+      filter: "Categories"
       this_is_private_community: "You need to sign up before you can view the content."
     invitation_form:
       email: "Email address(es)"

@@ -26,8 +26,7 @@
   width: 100%;
 
   &.filters-enabled {
-    width: 50%;
-    padding-left: lines(0.5 / 2);
+    width: 150%;
   }
 
   @include media(tablet) {

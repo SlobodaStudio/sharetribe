@@ -1330,7 +1330,7 @@ ru:
       welcome_to_new_kassi: "Добро пожаловать в новый %{service_name}!"
       no_reviews: "Нет отзывов"
       no_image: "нет изображения"
-      filter: Фильтр
+      filter: Категории
       this_is_private_community: "Вам нужно войти чтобы увидеть контент."
     invitation_form:
       email: "Адрес(а) электронной почты"

@@ -18,6 +18,7 @@
 .hidden-tablet {
   @include media(tablet) {
     display: none !important;
+    margin-bottom: 0.75em;
   }
 }
 
