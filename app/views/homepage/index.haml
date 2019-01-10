@@ -54,6 +54,7 @@
 - else
   .left-navi-dropdown.toggle.with-borders.hidden-tablet{data: {toggle: '.left-navi-menu'}}
     = t(".filter")
+    %br/ 
     .left-navi-menu.toggle-menu.hidden
       = link_to t("homepage.filters.all_categories"), search_path(search_params.merge({category: "all"})), :class => "home-categories-main #{if selected_category.nil? then 'selected' end}"
       - @main_categories.each do |category|
