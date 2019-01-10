@@ -543,7 +543,6 @@ class ApplicationController < ActionController::Base
         current_user_name: PersonViewUtils.person_display_name(u, @current_community),
         inbox_path: person_inbox_path(u),
         profile_path: person_path(u),
-        manage_listings_path: person_path(u, show_closed: true),
         settings_path: person_settings_path(u),
         logout_path: logout_path
       }
