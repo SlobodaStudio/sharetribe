@@ -1401,6 +1401,20 @@ $noscript-height: lines(4);
   display: inline;
 }
 
+.price-type {
+  margin-left: 10px;
+  display: inline;
+}
+
+.price-type > label {
+  display: inline-block;
+  width: auto;
+  font-weight: 500;
+  padding-left: 8px;
+  margin-top: 0.5625em;
+  margin-bottom: 0.1875em;
+}
+
 .delivery-options-container{
   margin-top: lines(0.5);
 }

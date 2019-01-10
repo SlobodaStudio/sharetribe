@@ -130,4 +130,8 @@ module ListingsHelper
     t(listing.action_button_tr_key)
   end
 
+  def localized_price_type
+    t("listings.show.price.type")
+  end
+
 end
