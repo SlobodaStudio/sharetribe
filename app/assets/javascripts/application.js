@@ -97,3 +97,8 @@
 //= require analytics
 //= require social-insurance-number
 //= require_self
+$("form").on("keypress", function (e) {
+    if (e.keyCode == 13) {
+        return false;
+    }
+});

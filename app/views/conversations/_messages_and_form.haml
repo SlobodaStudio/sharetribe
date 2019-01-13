@@ -7,7 +7,7 @@
       = f.label :content, t("conversations.show.write_a_reply")
       = f.text_area :content, :class => "reply_form_text_area"
       = f.hidden_field :conversation_id
-      = f.button t("conversations.show.send_reply"), :id => "send", :type=>"submit" 
+      = f.button t("conversations.show.send_reply")
 
 #messages
   = render :partial => "conversations/message", :collection => messages, as: :message_or_action
