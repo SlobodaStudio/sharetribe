@@ -1,3 +1,10 @@
+:javascript
+  document.getElementById('send').addEventListener('keypress', function(event) {
+    if (event.keyCode == 13) {
+      event.preventDefault();
+    }
+  });
+
 - if role == :participant
   - content_for :javascript do
     initialize_reply_form('#{I18n.locale}');
@@ -7,7 +14,7 @@
       = f.label :content, t("conversations.show.write_a_reply")
       = f.text_area :content, :class => "reply_form_text_area"
       = f.hidden_field :conversation_id
-      = f.button t("conversations.show.send_reply")
+      = f.button t("conversations.show.send_reply"), :id => "send"
 
 #messages
   = render :partial => "conversations/message", :collection => messages, as: :message_or_action
