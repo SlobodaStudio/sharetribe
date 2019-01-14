@@ -20,7 +20,6 @@
         - @listing_presenter.unit_options.each do |unit_option|
           %option{value: unit_option[:value], selected: unit_option[:selected], data: { kind: unit_option[:kind] }}
             = unit_option[:display]
-
     .price-type
       = form.check_box :negotiable_price
       = label_tag :negotiable_price, t(".type")
@@ -65,3 +64,15 @@
     - content_for :extra_javascript do
       :javascript
         $('#payment_fee_info_link').click(function() { $('#payment_fee_info_content').lightbox_me({centered: true, zIndex: 1000000}); ; return false});
+
+:javascript
+  $(document).ready(function(){
+    $('#listing_negotiable_price').change(function() {
+      if(this.checked) {
+        $('#listing_price').prop('disabled', true);
+      }
+      else {
+        $('#listing_price').prop('disabled', false);
+      }
+    });
+  });
