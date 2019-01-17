@@ -97,3 +97,9 @@
 //= require analytics
 //= require social-insurance-number
 //= require_self
+function SendComment(e) {
+    e = e || window.event;
+    if (e.keyCode == 13 && e.ctrlKey) {
+        document.getElementById('new_message').submit();
+    };
+};
