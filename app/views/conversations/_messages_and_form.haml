@@ -3,7 +3,7 @@
     initialize_reply_form('#{I18n.locale}');
 
   #reply_form.message-avatar-padding.message-reply-form
-    = form_for message_form, :id => "mess_form", :url => message_form_action do |f|
+    = form_for message_form, :url => message_form_action do |f|
       = f.label :content, t("conversations.show.write_a_reply")
       = f.text_area :content, :class => "reply_form_text_area", :onkeydown => "SendComment(event)"
       = f.hidden_field :conversation_id
