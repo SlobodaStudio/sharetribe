@@ -100,6 +100,6 @@
 function SendComment(e) {
     e = e || window.event;
     if (e.keyCode == 13 && e.ctrlKey) {
-        document.getElementById('mess_form').submit();
+        document.getElementById('new_message').submit();
     };
 };
