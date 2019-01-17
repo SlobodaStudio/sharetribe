@@ -97,8 +97,9 @@
 //= require analytics
 //= require social-insurance-number
 //= require_self
-$("form").on("keypress", function (e) {
-    if (e.keyCode == 13) {
-        return false;
-    }
-});
+function SendComment(e) {
+    e = e || window.event;
+    if (e.keyCode == 13 && e.ctrlKey) {
+        document.getElementById('mess_form').submit();
+    };
+};
