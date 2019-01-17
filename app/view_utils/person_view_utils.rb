@@ -87,7 +87,7 @@ module PersonViewUtils
     when matches([true])
       [deleted_user_text]
     when matches([__, __, true])
-      ["#{display_name[0,3]}..."]
+      [first_name]
     when matches([__, true, __, "first_name_with_initial"])
       first_name_with_initial(first_name, last_name)
     when matches([__, true, __, "first_name_only"])
