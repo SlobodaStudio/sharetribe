@@ -1415,6 +1415,10 @@ $noscript-height: lines(4);
   margin-bottom: 0.1875em;
 }
 
+.price-container > input:disabled {
+  background-color: rgb(235, 235, 228);
+}
+
 .delivery-options-container{
   margin-top: lines(0.5);
 }
