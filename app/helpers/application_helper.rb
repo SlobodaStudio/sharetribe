@@ -18,7 +18,7 @@ module ApplicationHelper
     to_time = to_time.to_time if to_time.respond_to?(:to_time)
     distance_in_minutes = (((to_time - from_time).abs)/60).round
     distance_in_seconds = ((to_time - from_time).abs).round
-    if @current_user.locale == "ru" || @current_user.locale == "ua"
+    if @current_user&.locale == "ru" || @current_user&.locle == "ua"
       if distance_in_seconds < 60 #seconds
         time_name = 'second'
         time_count = distance_in_seconds
